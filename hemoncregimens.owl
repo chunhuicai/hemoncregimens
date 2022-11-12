@@ -252,6 +252,94 @@
     
 
 
+    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243#Adjuvant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243#Adjuvant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000078"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243#COG_AAML1031 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243#COG_AAML1031">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243#Protocol"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243#Continuation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243#Continuation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000078"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243#Definitive -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243#Definitive">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000078"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243#Delayed_Intensification -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243#Delayed_Intensification">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000078"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243#Induction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243#Induction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000078"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243#Intensification -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243#Intensification">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000078"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243#Interim_Maintenance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243#Interim_Maintenance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000078"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243#Maintenance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243#Maintenance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000078"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243#Neoadjuvant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243#Neoadjuvant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000078"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243#Pre-phase -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243#Pre-phase">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000078"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243#Protocol -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243#Protocol">

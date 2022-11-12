@@ -1,4 +1,6 @@
-* model a course, regimen, protocol https://hemonc.org/wiki/Acute_myeloid_leukemia,_pediatric
+* model a course, regimen, protocol https://hemonc.org/wiki/Acute_myeloid_leukemia,_pediatric https://hemonc.org/wiki/Acute_myeloid_leukemia,_pediatric#COG_AAML1031_arm_A_.28low-risk.29
+  - this is the protocols
+    how do i give it a specific name. 
 
 * define medication adminstration in more detail and as per Jeremy's emails
 ** dose
