@@ -1,6 +1,14 @@
-* model a course, regimen, protocol https://hemonc.org/wiki/Acute_myeloid_leukemia,_pediatric https://hemonc.org/wiki/Acute_myeloid_leukemia,_pediatric#COG_AAML1031_arm_A_.28low-risk.29
-  - this is the protocols
-    how do i give it a specific name. 
+* model a course, regimen, protocol https://hemonc.org/wiki/Acute_myeloid_leukemia,_pediatric https://hemonc.org/wiki/Acute_myeloid_leukemia,_pediatri
+ 
+
+
+* do we need to order cycles/regimens in regumens ? if so, how?
+* local vs supportive therapy
+* distinguishing lines from protocols
+* where do procedures come in? - parts of procedures or protocols.
+
+
+*  cancer vs. anti-cancer intent?
 
 * define medication adminstration in more detail and as per Jeremy's emails
 ** dose
@@ -23,7 +31,13 @@ DONE
   - troble running code
   - reviewing which is the protocol/course/regimen
   - list of phases?
-
+- treatment context -hasLine, has Phase-
 - add a diagnosis - associated with a protocol
 
 
+add subclasses of medication administration for local
+    	       anticancer
+	supportive
+	
+
+- treatment context -hasLine, has Phase-
