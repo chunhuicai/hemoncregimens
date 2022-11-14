@@ -1,14 +1,14 @@
-* do we need to order cycles/regimens in regumens ? if so, how?  use owllist as per drummond et al.
 
 
 * model a course, regimen, protocol https://hemonc.org/wiki/Acute_myeloid_leukemia,_pediatric https://hemonc.org/wiki/Acute_myeloid_leukemia,_pediatric
  
-
-
-  
+ 
 * local vs supportive therapy
 * distinguishing lines from protocols
 * where do procedures come in? - parts of procedures or protocols.
+
+* do we need to order cycles/regimens in regumens ? if so, how?  use owllist as per drummond et al.
+  is ordering within a regimen important ? within a phase?
 
 
 *  cancer vs. anti-cancer intent?

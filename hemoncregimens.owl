@@ -149,6 +149,49 @@
     
 
 
+    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000110 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000110">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000109"/>
+        <rdfs:label xml:lang="en">hasListProperty</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000111 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000111">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000110"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000109"/>
+        <rdfs:label xml:lang="en">hasContents</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000113 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000113">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000110"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000109"/>
+        <rdfs:label xml:lang="en">isFollowedBy</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000114 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000114">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000113"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000109"/>
+        <rdfs:label xml:lang="en">hasNext</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://www.w3.org/2002/07/owl#topObjectProperty -->
 
     <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#topObjectProperty">
@@ -643,6 +686,47 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Treatment context</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000109 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000109">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000113"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000109"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>As defined in Drummon, et al. Putting Owl In Order: Patterns for Sequences in OWL</rdfs:comment>
+        <rdfs:label xml:lang="en">OWLList</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000115 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000115">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:complementOf>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000113"/>
+                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+                    </owl:Restriction>
+                </owl:complementOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000109"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000111"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000109"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">EmptyList</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
