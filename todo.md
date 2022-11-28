@@ -1,15 +1,16 @@
+--- 
+model ordering in regimen?
 
+---
 
 * model a course, regimen, protocol https://hemonc.org/wiki/Acute_myeloid_leukemia,_pediatric https://hemonc.org/wiki/Acute_myeloid_leukemia,_pediatric
  
  
 * local vs supportive therapy
 * distinguishing lines from protocols
-* where do procedures come in? - parts of procedures or protocols.
 
 * do we need to order cycles/regimens in regumens ? if so, how?  use owllist as per drummond et al.
   is ordering within a regimen important ? within a phase?
-
 
 *  cancer vs. anti-cancer intent?
 
@@ -44,3 +45,14 @@ add subclasses of medication administration for local
 	
 
 - treatment context -hasLine, has Phase-
+
+If it is intended to be given once, but might be repeated, it is a course. A regimen that occurs in isolation is stand-alone,
+
+-treatmentList hasTreatment someTreatment (exactly1)
+ treatmentList hasPhase somePhase (exactly 1)
+ protocol has treatment list
+model regiment with types of medication adminsistration.
+      anticancer
+      local
+      supportive
+      treatment modality `
