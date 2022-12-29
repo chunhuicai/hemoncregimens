@@ -71,27 +71,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000085 -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000085">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000086"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000084"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000084"/>
-        <rdfs:label xml:lang="en">hasSubsequentCourse</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000086 -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000086">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:label xml:lang="en">hasPreceedingCourse</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
     <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000093 -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000093">
@@ -185,6 +164,7 @@
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000116">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000120"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000084"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000084"/>
         <rdfs:label xml:lang="en">hasRegimen</rdfs:label>
@@ -252,15 +232,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000127 -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000127">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000124"/>
-        <rdfs:label xml:lang="en">hasLocalCancerIntent</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
     <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000128 -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000128">
@@ -288,11 +259,46 @@
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000131 -->
+    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000132 -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000131">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000127"/>
-        <rdfs:label xml:lang="en">hasRadioTherapyIntent</rdfs:label>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000132">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000105"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243#Protocol"/>
+        <rdfs:label xml:lang="en">hasProtocol</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000144 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000144">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000105"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000135"/>
+        <rdfs:label xml:lang="en">hasIntent</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000145 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000145">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000105"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000141"/>
+        <rdfs:label xml:lang="en">hasInflectionPoint</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000146 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000146">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000105"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000138"/>
+        <rdfs:label xml:lang="en">hasPrognosis</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -431,6 +437,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243#Delayed_Intensification">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000078"/>
+        <rdfs:comment>needed?</rdfs:comment>
     </owl:Class>
     
 
@@ -447,6 +454,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243#Intensification">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000078"/>
+        <rdfs:comment>needed?</rdfs:comment>
     </owl:Class>
     
 
@@ -577,6 +585,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000079">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000078"/>
+        <rdfs:comment>needed?</rdfs:comment>
         <rdfs:label xml:lang="en">Upfront induction therapy</rdfs:label>
     </owl:Class>
     
@@ -586,14 +595,9 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000081">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000078"/>
+        <rdfs:comment>needed?</rdfs:comment>
         <rdfs:label xml:lang="en">Salvage Therapy</rdfs:label>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000081"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
-        <owl:annotatedTarget xml:lang="en">Salvage Therapy</owl:annotatedTarget>
-        <rdfs:comment>could be phrased as &quot;relapsed or refractory, salvaged therapy&quot;</rdfs:comment>
-    </owl:Axiom>
     
 
 
@@ -631,6 +635,12 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000116"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000084"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000093"/>
                 <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
                 <owl:onClass rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000102"/>
@@ -641,20 +651,6 @@
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000125"/>
                 <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
                 <owl:onClass rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000102"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000085"/>
-                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000084"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000086"/>
-                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000084"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -707,6 +703,12 @@
     <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000091 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000091">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000094"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000090"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">MedicationAdministration</rdfs:label>
     </owl:Class>
     
@@ -778,7 +780,39 @@
     <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000105 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000105">
-        <rdfs:comment xml:lang="en">A line of therapy is the complete round of treatment from beginning to end. A line is typically terminated due to one of three events:</rdfs:comment>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000144"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000135"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000145"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000141"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000146"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000138"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000116"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000084"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000132"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243#Protocol"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">A line of therapy is the complete round of treatment from beginning to end.</rdfs:comment>
         <rdfs:label>Line</rdfs:label>
     </owl:Class>
     
@@ -799,6 +833,7 @@
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000105"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:comment>consider removing</rdfs:comment>
         <rdfs:label xml:lang="en">Treatment context</rdfs:label>
     </owl:Class>
     
@@ -874,6 +909,124 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">TreatmentList</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000133 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000133">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000134"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243#cycle"/>
+        <rdfs:label xml:lang="en">Indeterminate Regimen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000134 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000134">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243#cycle"/>
+        <rdfs:label xml:lang="en">Indefinite Regimen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000135 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000135">
+        <rdfs:comment>the goal of a line of treatment</rdfs:comment>
+        <rdfs:label xml:lang="en">Intent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000136 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000136">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000135"/>
+        <rdfs:label xml:lang="en">Curative</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000137 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000137">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000135"/>
+        <rdfs:label xml:lang="en">Palliative</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000138 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000138">
+        <rdfs:comment>might need a definition here.</rdfs:comment>
+        <rdfs:label xml:lang="en">Prognosis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000139 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000139">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000138"/>
+        <rdfs:label xml:lang="en">Curable</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000140 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000140">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000138"/>
+        <rdfs:label xml:lang="en">Incurable</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000141 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000141">
+        <rdfs:label xml:lang="en">Inflection Point</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000142 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000142">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000141"/>
+        <rdfs:label xml:lang="en">Relapsed</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000143 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000143">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000141"/>
+        <rdfs:label xml:lang="en">Refractory</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000147 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000147">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000105"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000148"/>
+        <rdfs:label xml:lang="en">Determinate Line</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000148 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000148">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000105"/>
+        <rdfs:label xml:lang="en">Indeterminate Line</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 

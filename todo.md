@@ -1,9 +1,6 @@
---- 
-model ordering in regimen?
 
----
-
-* model a course, regimen, protocol https://hemonc.org/wiki/Acute_myeloid_leukemia,_pediatric https://hemonc.org/wiki/Acute_myeloid_leukemia,_pediatric
+ordering bettween phases as per episode annotation guielines
+* do a specific example model a course, regimen, protocol https://hemonc.org/wiki/Acute_myeloid_leukemia,_pediatric https://hemonc.org/wiki/Acute_myeloid_leukemia,_pediatric
  
  
 * local vs supportive therapy
@@ -20,6 +17,9 @@ model ordering in regimen?
 ** timing?
 ** etc..
 
+* medication
+** dosing
+** route
 
 DONE
 * add names for protocols and regimens
@@ -56,3 +56,16 @@ model regiment with types of medication adminsistration.
       local
       supportive
       treatment modality `
+
+* regimen
+* phase
+* protocol  definition
+* line definition* phase, line, protocol, regimen relations
+
+- review of definitions of regimen, protocol, line, intent...
+
+  flesh out line
+
+-mail jeremy
+      are phasess asoociated with reigmens? Lines? If we downplay protocol, where do phases fit itn ?
+        depreate treatment contesxt
