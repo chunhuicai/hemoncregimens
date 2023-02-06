@@ -1,15 +1,7 @@
+- going through document 
+ fordering bettween phases as per episode annotation guielines
+* https://hemonc.org/wiki/Acute_myeloid_leukemia,_pediatric#COG_AAML1031_arm_C_.28FLT3.2FITD.2B.29
 
-ordering bettween phases as per episode annotation guielines
-* do a specific example model a course, regimen, protocol https://hemonc.org/wiki/Acute_myeloid_leukemia,_pediatric https://hemonc.org/wiki/Acute_myeloid_leukemia,_pediatric
- 
- 
-* local vs supportive therapy
-* distinguishing lines from protocols
-
-* do we need to order cycles/regimens in regumens ? if so, how?  use owllist as per drummond et al.
-  is ordering within a regimen important ? within a phase?
-
-*  cancer vs. anti-cancer intent?
 
 * define medication adminstration in more detail and as per Jeremy's emails
 ** dose
