@@ -1,1081 +1,1429 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/"
-     xml:base="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/"
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-    <owl:Ontology rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243"/>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Object Properties
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243#hasCourse -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243#hasCourse">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243#Protocol"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000084"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243#hasDurationDays -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243#hasDurationDays">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000098"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243#hasDurationWeeks -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243#hasDurationWeeks">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000098"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243#hasPhase -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243#hasPhase">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000078"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000077 -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000077">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:range>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000077"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000074"/>
-            </owl:Restriction>
-        </rdfs:range>
-        <rdfs:label xml:lang="en">hasPublication</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000094 -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000094">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000090"/>
-        <rdfs:label xml:lang="en">hasMedication</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000096 -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000096">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000095"/>
-        <rdfs:label xml:lang="en">hasDose</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000098 -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000098">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:range>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000099"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
-            </owl:Restriction>
-        </rdfs:range>
-        <rdfs:label xml:lang="en">hasDuration</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000110 -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000110">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000109"/>
-        <rdfs:label xml:lang="en">hasListProperty</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000113 -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000113">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000110"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000109"/>
-        <rdfs:label xml:lang="en">isFollowedBy</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000114 -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000114">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000113"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000109"/>
-        <rdfs:label xml:lang="en">hasNext</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000116 -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000116">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000120"/>
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000084"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000084"/>
-        <rdfs:label xml:lang="en">hasRegimen</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000120 -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000120">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000119"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000117"/>
-        <rdfs:label xml:lang="en">hasTreatment</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000121 -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000121">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000120"/>
-        <rdfs:label xml:lang="en">hasProcedure</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000122 -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000122">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243#Protocol"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000119"/>
-        <rdfs:label xml:lang="en">hasTreatmentList</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000124 -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000124">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000084"/>
-        <rdfs:label xml:lang="en">hasMedicationModality</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000125 -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000125">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000124"/>
-        <rdfs:label xml:lang="en">hasSystemicCancerIntent</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000126 -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000126">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000124"/>
-        <rdfs:label xml:lang="en">hasNonCancerIntent</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000128 -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000128">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000124"/>
-        <rdfs:label xml:lang="en">hasSupportiveIntent</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000129 -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000129">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000125"/>
-        <rdfs:label xml:lang="en">hasAntiNeoPlasticIntent</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000130 -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000130">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000126"/>
-        <rdfs:label xml:lang="en">hasImmunoSuppressorIntent</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000132 -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000132">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243#Protocol"/>
-        <rdfs:label xml:lang="en">hasProtocol</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000144 -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000144">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000135"/>
-        <rdfs:label xml:lang="en">hasIntent</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000145 -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000145">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000141"/>
-        <rdfs:label xml:lang="en">hasInflectionPoint</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000146 -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000146">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000138"/>
-        <rdfs:label xml:lang="en">hasPrognosis</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000151 -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000151">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:label xml:lang="en">hasPriorTherapy</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000156 -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000156">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000132"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000155"/>
-            </owl:Restriction>
-        </rdfs:domain>
-        <rdfs:label xml:lang="en">hasStudyProtocol</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.w3.org/2002/07/owl#topObjectProperty -->
-
-    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#topObjectProperty">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000084"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000078"/>
-    </rdf:Description>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Data properties
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243#hasRepetitions -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243#hasRepetitions">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000084"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000075 -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000075">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000075"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-            </owl:Restriction>
-        </rdfs:domain>
-        <rdfs:label xml:lang="en">hasDOI</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000099 -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000099">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000099"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
-            </owl:Restriction>
-        </rdfs:domain>
-        <rdfs:label xml:lang="en">hasDuration</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000152 -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000152">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
-        <rdfs:label xml:lang="en">hasPriorTherapy</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000154 -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000154">
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
-        <rdfs:label xml:lang="en">isDeterminate</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000163 -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000163">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:label xml:lang="en">hasName</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000164 -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000164">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <rdfs:label xml:lang="en">hasCode</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.w3.org/2002/07/owl#topDataProperty -->
-
-    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#topDataProperty">
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    </rdf:Description>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Classes
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243#Adjuvant -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243#Adjuvant">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000078"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243#COG_AAML1031 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243#COG_AAML1031">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243#Protocol"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243#Continuation -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243#Continuation">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000078"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243#Definitive -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243#Definitive">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000078"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243#Delayed_Intensification -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243#Delayed_Intensification">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000078"/>
-        <rdfs:comment>needed?</rdfs:comment>
-        <rdfs:label>DelayedIntensificiation</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243#Induction -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243#Induction">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000078"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243#Intensification -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243#Intensification">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000078"/>
-        <rdfs:comment>needed?</rdfs:comment>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243#Interim_Maintenance -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243#Interim_Maintenance">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000078"/>
-        <rdfs:comment>InterimMaintenance</rdfs:comment>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243#Maintenance -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243#Maintenance">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000078"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243#Neoadjuvant -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243#Neoadjuvant">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000078"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243#Pre-phase -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243#Pre-phase">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000078"/>
-        <rdfs:label>Pre-phase</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243#Protocol -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243#Protocol">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000117"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000156"/>
-                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000155"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000122"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000119"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243#Suppotive_therapy -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243#Suppotive_therapy">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000090"/>
-        <rdfs:label>SupportiveTherapy</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243#cycle -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243#cycle">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000084"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243#hasRepetitions"/>
-                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:minQualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2002/07/owl#rational"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:label>Cycle</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000074 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000074">
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000075"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:comment>flesh out publication with the usual details as appropriate.</rdfs:comment>
-        <rdfs:label xml:lang="en">Publication</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000076 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000076">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000084"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243#hasRepetitions"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:label xml:lang="en">Course</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000078 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000078">
-        <rdfs:label xml:lang="en">Phase</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000079 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000079">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000078"/>
-        <rdfs:comment>needed?</rdfs:comment>
-        <rdfs:label xml:lang="en">UpfrontInductionTherapy</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000081 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000081">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000078"/>
-        <rdfs:comment>needed?</rdfs:comment>
-        <rdfs:label xml:lang="en">SalvageTherapy</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000083 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000083">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000078"/>
-        <rdfs:comment>Might have to be modeled with separate post-composed consolidations for after upfront vs. after salvage, etc.</rdfs:comment>
-        <rdfs:label xml:lang="en">Consolidation</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000084 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000084">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000117"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243#hasPhase"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000078"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000116"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000084"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000122"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000119"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000099"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:comment>which course - first second, third</rdfs:comment>
-        <rdfs:label xml:lang="en">Regimen</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000087 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000087">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000100"/>
-        <rdfs:label xml:lang="en">Chemotherapy</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000088 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000088">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000101"/>
-        <rdfs:label xml:lang="en">CNS therapy, prophylaxis</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000089 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000089">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000088"/>
-        <rdfs:label xml:lang="en">Glucocortisoid</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000090 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000090">
-        <rdfs:label xml:lang="en">Medication</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000095 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000095">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000117"/>
-        <rdfs:comment>TBD  - modeling doses</rdfs:comment>
-        <rdfs:label xml:lang="en">Dose</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000097 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000097">
-        <rdfs:comment>TBD - modeling specific biomarkers</rdfs:comment>
-        <rdfs:label xml:lang="en">Biomarker</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000100 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000100">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000090"/>
-        <rdfs:label xml:lang="en">Anticancer</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000101 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000101">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000090"/>
-        <rdfs:label xml:lang="en">LocalTherapy</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000109 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000109">
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000113"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000109"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:comment>As defined in Drummon, et al. Putting Owl In Order: Patterns for Sequences in OWL</rdfs:comment>
-        <rdfs:label xml:lang="en">OWLList</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000115 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000115">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:complementOf>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000113"/>
-                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-                    </owl:Restriction>
-                </owl:complementOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000109"/>
-        <rdfs:label xml:lang="en">EmptyList</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000117 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000117">
-        <rdfs:label xml:lang="en">Treatment</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000118 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000118">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000117"/>
-        <rdfs:label xml:lang="en">Procedure</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000119 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000119">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000109"/>
-        <rdfs:subClassOf>
-            <owl:Class>
-                <owl:unionOf rdf:parseType="Collection">
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000120"/>
-                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000118"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000120"/>
-                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000158"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000120"/>
-                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000159"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000120"/>
-                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000160"/>
-                    </owl:Restriction>
-                </owl:unionOf>
-            </owl:Class>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243#hasPhase"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000078"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:label xml:lang="en">TreatmentList</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000133 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000133">
-        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000134"/>
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243#cycle"/>
-        <rdfs:label xml:lang="en">Indeterminate Regimen</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000134 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000134">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243#cycle"/>
-        <rdfs:label xml:lang="en">Indefinite Regimen</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000135 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000135">
-        <rdfs:comment>the goal of a line of treatment</rdfs:comment>
-        <rdfs:label xml:lang="en">Intent</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000136 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000136">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000135"/>
-        <rdfs:label xml:lang="en">Curative</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000137 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000137">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000135"/>
-        <rdfs:label xml:lang="en">Palliative</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000138 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000138">
-        <rdfs:comment>might need a definition here.</rdfs:comment>
-        <rdfs:label xml:lang="en">Prognosis</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000139 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000139">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000138"/>
-        <rdfs:label xml:lang="en">Curable</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000140 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000140">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000138"/>
-        <rdfs:label xml:lang="en">Incurable</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000141 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000141">
-        <rdfs:label xml:lang="en">InflectionPoint</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000142 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000142">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000141"/>
-        <rdfs:label xml:lang="en">Relapsed</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000143 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000143">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000141"/>
-        <rdfs:label xml:lang="en">Refractory</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000150 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000150">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000135"/>
-        <rdfs:label xml:lang="en">Borderline</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000153 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000153">
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000122"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000119"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000146"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000138"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000144"/>
-                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000135"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000145"/>
-                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000141"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000152"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000154"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:comment>Cancer care for an individual can be thought of as a series of attempted treatments known as lines. Lines are guided by intents, indicating whether they are “curative”, “palliative”, or “borderline”. Lines might also be distinguished by inflection points (relapsed or refractory), prognosis (incurable, curable) and possibly indication of prior therapy (untreated).</rdfs:comment>
-        <rdfs:label xml:lang="en">Line</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000155 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000155">
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000077"/>
-                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000138"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:comment>The study protocol is the scienitic plan for evaluating the efficiacy of a treatment protocol.</rdfs:comment>
-        <rdfs:label xml:lang="en">StudyProtocol</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000157 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000157">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000117"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000096"/>
-                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000095"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:label xml:lang="en">MedicationAdministration</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000158 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000158">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000157"/>
-        <rdfs:label xml:lang="en">AnticancerAdministration</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000159 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000159">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000157"/>
-        <rdfs:label xml:lang="en">LocalTherapyAdministration</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000160 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000160">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000157"/>
-        <rdfs:label xml:lang="en">SupportiveTherapyAdministration</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000162 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000162">
-        <rdfs:comment>TODO: LINK DIRECTLY TO NCI -make &quot;hasCode&quot; work better.</rdfs:comment>
-        <rdfs:label xml:lang="en">Diagnosis</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000165 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000165">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000162"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000164"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:label xml:lang="en">AMLPediatric</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // General axioms
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000136"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000137"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/0000150"/>
-        </owl:members>
-    </rdf:Description>
-</rdf:RDF>
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243">
+    <Prefix name="" IRI="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Intensification"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/0000096"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/0000185"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Suppotive_therapy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/0000081"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPhase"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/0000150"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/0000125"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/0000162"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/0000142"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/0000097"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/0000186"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/0000089"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/0000121"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/0000134"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/0000113"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/0000145"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/0000158"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/0000163"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/0000138"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/0000183"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/0000118"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/0000129"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Adjuvant"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/0000184"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCourse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/0000090"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/0000120"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/0000074"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/0000128"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/0000116"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/0000143"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/0000144"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/0000078"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/0000155"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Induction"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/0000132"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/0000124"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Continuation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/0000135"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/0000156"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/0000115"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/0000159"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/0000139"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/0000119"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Protocol"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/0000154"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/0000151"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/0000098"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/0000083"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/0000094"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Delayed_Intensification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Definitive"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/0000160"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/0000140"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/0000095"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/0000087"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#COG_AAML1031"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/0000100"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/0000079"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/0000136"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasRepetitions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cycle"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/0000130"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Interim_Maintenance"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasDurationWeeks"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/0000126"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/0000084"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/0000114"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/0000141"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Maintenance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/0000076"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pre-phase"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/0000153"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/0000122"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/0000077"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/0000110"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/0000133"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/0000088"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/0000101"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/0000146"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/0000157"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/0000152"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/0000164"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/0000075"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/0000137"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Neoadjuvant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/0000117"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/0000109"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasDurationDays"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/0000099"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#Pre-phase"/>
+        <Class IRI="/0000186"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/0000115"/>
+        <ObjectComplementOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="/0000113"/>
+                <Class abbreviatedIRI="owl:Thing"/>
+            </ObjectSomeValuesFrom>
+        </ObjectComplementOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/0000133"/>
+        <Class IRI="/0000134"/>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#Adjuvant"/>
+        <Class IRI="/0000078"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Adjuvant"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/0000185"/>
+            <Class IRI="#Maintenance"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#COG_AAML1031"/>
+        <Class IRI="#Protocol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Continuation"/>
+        <Class IRI="/0000078"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Definitive"/>
+        <Class IRI="/0000078"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Definitive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/0000185"/>
+            <Class IRI="#Adjuvant"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Delayed_Intensification"/>
+        <Class IRI="/0000078"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Induction"/>
+        <Class IRI="/0000078"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Intensification"/>
+        <Class IRI="/0000078"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Interim_Maintenance"/>
+        <Class IRI="/0000078"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Maintenance"/>
+        <Class IRI="/0000078"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Neoadjuvant"/>
+        <Class IRI="/0000078"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Neoadjuvant"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/0000185"/>
+            <Class IRI="#Definitive"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pre-phase"/>
+        <Class IRI="/0000078"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pre-phase"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/0000185"/>
+            <Class IRI="#Induction"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Protocol"/>
+        <Class IRI="/0000117"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Protocol"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="/0000122"/>
+            <Class IRI="/0000119"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Suppotive_therapy"/>
+        <Class IRI="/0000090"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cycle"/>
+        <Class IRI="/0000084"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cycle"/>
+        <DataMinCardinality cardinality="2">
+            <DataProperty IRI="#hasRepetitions"/>
+            <Datatype abbreviatedIRI="owl:rational"/>
+        </DataMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000074"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="/0000075"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000076"/>
+        <Class IRI="/0000084"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000076"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#hasRepetitions"/>
+            <Datatype abbreviatedIRI="xsd:int"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000079"/>
+        <Class IRI="/0000078"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000081"/>
+        <Class IRI="/0000078"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000083"/>
+        <Class IRI="/0000078"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000084"/>
+        <Class IRI="/0000117"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000084"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPhase"/>
+            <Class IRI="/0000078"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000084"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/0000116"/>
+            <Class IRI="/0000084"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000084"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/0000122"/>
+            <Class IRI="/0000119"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000084"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="/0000099"/>
+            <Datatype abbreviatedIRI="xsd:integer"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000087"/>
+        <Class IRI="/0000100"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000088"/>
+        <Class IRI="/0000101"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000089"/>
+        <Class IRI="/0000088"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000095"/>
+        <Class IRI="/0000117"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000100"/>
+        <Class IRI="/0000090"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000101"/>
+        <Class IRI="/0000090"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000109"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/0000113"/>
+            <Class IRI="/0000109"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000115"/>
+        <Class IRI="/0000109"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000118"/>
+        <Class IRI="/0000117"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000119"/>
+        <Class IRI="/0000109"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000119"/>
+        <ObjectUnionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="/0000120"/>
+                <Class IRI="/0000118"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="/0000120"/>
+                <Class IRI="/0000158"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="/0000120"/>
+                <Class IRI="/0000159"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="/0000120"/>
+                <Class IRI="/0000160"/>
+            </ObjectSomeValuesFrom>
+        </ObjectUnionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000119"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasPhase"/>
+            <Class IRI="/0000078"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000133"/>
+        <Class IRI="#cycle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000134"/>
+        <Class IRI="#cycle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000136"/>
+        <Class IRI="/0000135"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000137"/>
+        <Class IRI="/0000135"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000139"/>
+        <Class IRI="/0000138"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000140"/>
+        <Class IRI="/0000138"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000142"/>
+        <Class IRI="/0000141"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000143"/>
+        <Class IRI="/0000141"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000150"/>
+        <Class IRI="/0000135"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000153"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/0000122"/>
+            <Class IRI="/0000119"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000153"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/0000146"/>
+            <Class IRI="/0000138"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000153"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="/0000144"/>
+            <Class IRI="/0000135"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000153"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="/0000145"/>
+            <Class IRI="/0000141"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000153"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="/0000152"/>
+            <Datatype abbreviatedIRI="xsd:boolean"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000153"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="/0000154"/>
+            <Datatype abbreviatedIRI="xsd:boolean"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000157"/>
+        <Class IRI="/0000117"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000157"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="/0000096"/>
+            <Class IRI="/0000095"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000158"/>
+        <Class IRI="/0000157"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000159"/>
+        <Class IRI="/0000157"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000160"/>
+        <Class IRI="/0000157"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000162"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="/0000163"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000162"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="/0000164"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000186"/>
+        <Class IRI="/0000078"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="/0000136"/>
+        <Class IRI="/0000137"/>
+        <Class IRI="/0000150"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="/0000074"/>
+        <NamedIndividual IRI="/0000183"/>
+    </ClassAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/0000075"/>
+        <NamedIndividual IRI="/0000183"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">10.3324/haematol.2019.220962</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasCourse"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasDurationDays"/>
+        <ObjectProperty IRI="/0000098"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasDurationWeeks"/>
+        <ObjectProperty IRI="/0000098"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasPhase"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/0000077"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/0000094"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/0000096"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/0000098"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/0000110"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/0000113"/>
+        <ObjectProperty IRI="/0000110"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/0000114"/>
+        <ObjectProperty IRI="/0000113"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/0000116"/>
+        <ObjectProperty IRI="/0000120"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/0000116"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/0000120"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/0000121"/>
+        <ObjectProperty IRI="/0000120"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/0000122"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/0000124"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/0000125"/>
+        <ObjectProperty IRI="/0000124"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/0000126"/>
+        <ObjectProperty IRI="/0000124"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/0000128"/>
+        <ObjectProperty IRI="/0000124"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/0000129"/>
+        <ObjectProperty IRI="/0000125"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/0000130"/>
+        <ObjectProperty IRI="/0000126"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/0000132"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/0000144"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/0000145"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/0000146"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/0000151"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/0000156"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/0000184"/>
+        <ObjectProperty IRI="#hasPhase"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/0000185"/>
+        <ObjectProperty IRI="#hasPhase"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="/0000184"/>
+        <ObjectProperty IRI="/0000185"/>
+    </InverseObjectProperties>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="/0000114"/>
+    </FunctionalObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="/0000113"/>
+    </TransitiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasCourse"/>
+        <Class IRI="#Protocol"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/0000110"/>
+        <Class IRI="/0000109"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/0000113"/>
+        <Class IRI="/0000109"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/0000114"/>
+        <Class IRI="/0000109"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/0000116"/>
+        <Class IRI="/0000084"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/0000120"/>
+        <Class IRI="/0000119"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/0000122"/>
+        <Class IRI="#Protocol"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/0000124"/>
+        <Class IRI="/0000084"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/0000156"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/0000132"/>
+            <Class IRI="/0000155"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+        <Class IRI="/0000084"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasCourse"/>
+        <Class IRI="/0000084"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasPhase"/>
+        <Class IRI="/0000078"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/0000077"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/0000077"/>
+            <Class IRI="/0000074"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/0000094"/>
+        <Class IRI="/0000090"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/0000096"/>
+        <Class IRI="/0000095"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/0000098"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="/0000099"/>
+            <Datatype abbreviatedIRI="xsd:integer"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/0000116"/>
+        <Class IRI="/0000084"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/0000120"/>
+        <Class IRI="/0000117"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/0000122"/>
+        <Class IRI="/0000119"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/0000132"/>
+        <Class IRI="#Protocol"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/0000144"/>
+        <Class IRI="/0000135"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/0000145"/>
+        <Class IRI="/0000141"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/0000146"/>
+        <Class IRI="/0000138"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+        <Class IRI="/0000078"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasRepetitions"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="/0000075"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="/0000099"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="/0000152"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="/0000163"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="/0000164"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasRepetitions"/>
+        <Class IRI="/0000084"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/0000075"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="/0000075"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/0000099"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="/0000099"/>
+            <Datatype abbreviatedIRI="xsd:integer"/>
+        </DataSomeValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasRepetitions"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/0000152"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/0000154"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/0000163"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/0000164"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Delayed_Intensification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">needed?</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Delayed_Intensification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">DelayedIntensificiation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Intensification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">needed?</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Interim_Maintenance</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">InterimMaintenance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Pre-phase</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Pre-phase</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Suppotive_therapy</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">SupportiveTherapy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#cycle</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Cycle</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/0000074</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">flesh out publication with the usual details as appropriate. sor some reasonnot saving with hasDOI as a data property..</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000074</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Publication</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000075</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hasDOI</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000076</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Course</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000077</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hasPublication</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000078</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Phase</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/0000079</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">needed?</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000079</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">UpfrontInductionTherapy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/0000081</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">needed?</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000081</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">SalvageTherapy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/0000083</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Might have to be modeled with separate post-composed consolidations for after upfront vs. after salvage, etc.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000083</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Consolidation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/0000084</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">which course - first second, third</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000084</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Regimen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000087</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Chemotherapy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000088</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">CNS therapy, prophylaxis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000089</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Glucocortisoid</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000090</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Medication</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000094</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hasMedication</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/0000095</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">TBD  - modeling doses</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000095</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Dose</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000096</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hasDose</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/0000097</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">TBD - modeling specific biomarkers</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000097</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Biomarker</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000098</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hasDuration</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000099</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hasDuration</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000100</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Anticancer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000101</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">LocalTherapy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/0000109</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">As defined in Drummon, et al. Putting Owl In Order: Patterns for Sequences in OWL</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000109</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">OWLList</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000110</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hasListProperty</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000113</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">isFollowedBy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000114</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hasNext</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000115</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">EmptyList</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000116</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hasRegimen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000117</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Treatment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000118</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Procedure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000119</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">TreatmentList</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000120</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hasTreatment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000121</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hasProcedure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000122</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hasTreatmentList</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000124</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hasMedicationModality</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000125</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hasSystemicCancerIntent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000126</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hasNonCancerIntent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000128</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hasSupportiveIntent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000129</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hasAntiNeoPlasticIntent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000130</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hasImmunoSuppressorIntent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000132</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hasProtocol</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000133</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Indeterminate Regimen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000134</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Indefinite Regimen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/0000135</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">the goal of a line of treatment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000135</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Intent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000136</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Curative</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000137</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Palliative</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/0000138</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">might need a definition here.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000138</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Prognosis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000139</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Curable</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000140</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Incurable</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000141</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">InflectionPoint</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000142</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Relapsed</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000143</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Refractory</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000144</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hasIntent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000145</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hasInflectionPoint</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000146</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hasPrognosis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000150</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Borderline</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000151</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hasPriorTherapy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000152</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hasPriorTherapy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/0000153</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Cancer care for an individual can be thought of as a series of attempted treatments known as lines. Lines are guided by intents, indicating whether they are “curative”, “palliative”, or “borderline”. Lines might also be distinguished by inflection points (relapsed or refractory), prognosis (incurable, curable) and possibly indication of prior therapy (untreated).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000153</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Line</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000154</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">isDeterminate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/0000155</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The study protocol is the scienitic plan for evaluating the efficiacy of a treatment protocol.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000155</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">StudyProtocol</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000156</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hasStudyProtocol</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000157</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">MedicationAdministration</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000158</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">AnticancerAdministration</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000159</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">LocalTherapyAdministration</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000160</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">SupportiveTherapyAdministration</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/0000162</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">TODO: LINK DIRECTLY TO NCI -make &quot;hasCode&quot; work better.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000162</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Diagnosis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000163</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hasName</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000164</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hasCode</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000183</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">COG_AAML_1031_Aplenc</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000184</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hasPriorPhase</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000185</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hasSubsequentPhase</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000186</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Pre-induction</Literal>
+    </AnnotationAssertion>
+</Ontology>
 
 
 

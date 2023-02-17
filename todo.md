@@ -1,17 +1,21 @@
-- going through document 
- fordering bettween phases as per episode annotation guielines
+- order phases  https://www.cancerresearchuk.org/about-cancer/acute-lymphoblastic-leukaemia-all/treatment/phases
+
+
 * https://hemonc.org/wiki/Acute_myeloid_leukemia,_pediatric#COG_AAML1031_arm_C_.28FLT3.2FITD.2B.29
+	start on modeling
+	diagnosis
+	publication
+	protocol become named individuals
+
+look at units and membership https://bioportal.bioontology.org/ontologies/OM
 
 
-* define medication adminstration in more detail and as per Jeremy's emails
-** dose
-** counts
-** timing?
-** etc..
+COG-AAML-1031-Aplenc
 
-* medication
-** dosing
-** route
+- biomarkers
+
+
+
 
 DONE
 * add names for protocols and regimens
@@ -61,3 +65,18 @@ model regiment with types of medication adminsistration.
 -mail jeremy
       are phasess asoociated with reigmens? Lines? If we downplay protocol, where do phases fit itn ?
         depreate treatment contesxt
+  *** notes on open questions
+  **heck status in github - commit and backup
+  * check haspriortherapy - domain and range?
+  * add Line
+  
+  
+  - remove medicaiton administration.
+  - put lists in regimen for treatment
+  - protocol as ordered list?
+-make treatment list refer to these
+- add subclasses
+- clean names of phases.
+- add study protocol with DOI.
+https://www.researchgate.net/publication/351037551_A_Practical_Guide_to_Building_OWL_Ontologies_Using_Protege_55_and_Plugins - diagnsois  name and coee? 
+clean up definitions
