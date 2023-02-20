@@ -1,18 +1,12 @@
 
 * https://hemonc.org/wiki/Acute_myeloid_leukemia,_pediatric#COG_AAML1031_arm_C_.28FLT3.2FITD.2B.29
-
-Should specific phases (Inductino, etc. be individuals? Look at pizza?
-       yes. add these 
-
-- order phases  https://www.cancerresearchuk.org/about-cancer/acute-lymphoblastic-leukaemia-all/treatment/phases
+  intensification i
+  intensification 2
+  biormaker status
 
 
 flook at units and membership https://bioportal.bioontology.org/ontologies/OM
 
-
-COG-AAML-1031-Aplenc
-
-- biomarkers
 
 
 
@@ -80,3 +74,21 @@ model regiment with types of medication adminsistration.
 - add study protocol with DOI.
 https://www.researchgate.net/publication/351037551_A_Practical_Guide_to_Building_OWL_Ontologies_Using_Protege_55_and_Plugins - diagnsois  name and coee? 
 clean up definitions
+
+
+- order phases  https://www.cancerresearchuk.org/about-cancer/acute-lymphoblastic-leukaemia-all/treatment/phases
+Should specific phases (Inductino, etc. be individuals? Look at pizza?
+       yes. add these
+       	  *  	pre-phase/pre-induction    -induction subsequent
+		*induction  - consolidation  subsequent
+		*consolidation - intensification
+		*intensification - maintenance
+		*maintenance
+		interim_maintenance
+		adjuvant   - maintenance
+		neoadjuvant -definitive
+		definitive -adjuvant
+		delayed intensification
+		continuation
+		salvage
+		upfrontinductiontherapy

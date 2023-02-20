@@ -13,40 +13,19 @@
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Declaration>
-        <Class IRI="#Intensification"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="/0000096"/>
-    </Declaration>
-    <Declaration>
         <ObjectProperty IRI="/0000185"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Suppotive_therapy"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/0000081"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasPhase"/>
+        <NamedIndividual IRI="/0000209"/>
     </Declaration>
     <Declaration>
         <Class IRI="/0000150"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="/0000125"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="/0000162"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/0000142"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/0000097"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/0000186"/>
     </Declaration>
     <Declaration>
         <Class IRI="/0000089"/>
@@ -58,9 +37,6 @@
         <Class IRI="/0000134"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="/0000113"/>
-    </Declaration>
-    <Declaration>
         <ObjectProperty IRI="/0000145"/>
     </Declaration>
     <Declaration>
@@ -68,9 +44,6 @@
     </Declaration>
     <Declaration>
         <DataProperty IRI="/0000163"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/0000138"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="/0000183"/>
@@ -82,25 +55,19 @@
         <ObjectProperty IRI="/0000129"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Adjuvant"/>
+        <NamedIndividual IRI="/0000195"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/0000200"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="/0000184"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#hasCourse"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/0000090"/>
-    </Declaration>
-    <Declaration>
         <ObjectProperty IRI="/0000120"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#COG_AAML_1031"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/0000074"/>
+        <NamedIndividual IRI="/0000208"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="/0000128"/>
@@ -109,28 +76,13 @@
         <ObjectProperty IRI="/0000116"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/0000143"/>
-    </Declaration>
-    <Declaration>
         <ObjectProperty IRI="/0000144"/>
     </Declaration>
     <Declaration>
         <Class IRI="/0000078"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/0000155"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Induction"/>
-    </Declaration>
-    <Declaration>
         <ObjectProperty IRI="/0000132"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="/0000124"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Continuation"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="/0000156"/>
@@ -139,70 +91,31 @@
         <Class IRI="/0000135"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="/0000190"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/0000115"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="/0000159"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/0000139"/>
+        <NamedIndividual IRI="/0000194"/>
     </Declaration>
     <Declaration>
         <Class IRI="/0000119"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Protocol"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="/0000154"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="/0000151"/>
-    </Declaration>
-    <Declaration>
         <ObjectProperty IRI="/0000098"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Delayed_Intensification"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/0000083"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="/0000094"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Definitive"/>
     </Declaration>
     <Declaration>
         <Class IRI="/0000160"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/0000140"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/0000095"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="/0000087"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/0000100"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/0000079"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/0000136"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#hasRepetitions"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#COG_AAML_1031_Arm_C_(FLT3/ITD+)"/>
+        <NamedIndividual IRI="/0000193"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/0000210"/>
     </Declaration>
     <Declaration>
         <Class IRI="#cycle"/>
@@ -214,31 +127,154 @@
         <ObjectProperty IRI="/0000130"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Interim_Maintenance"/>
-    </Declaration>
-    <Declaration>
         <ObjectProperty IRI="#hasDurationWeeks"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="/0000126"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/0000084"/>
-    </Declaration>
-    <Declaration>
         <ObjectProperty IRI="/0000114"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/0000141"/>
     </Declaration>
     <Declaration>
         <Class IRI="/0000076"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Maintenance"/>
+        <Class IRI="/0000088"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Pre-phase"/>
+        <Class IRI="/0000133"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/0000157"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/0000075"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/0000117"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/0000207"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/0000192"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasDurationDays"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/0000099"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/0000096"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPhase"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/0000125"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/0000142"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/0000097"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/0000113"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/0000191"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/0000138"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/0000206"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/0000199"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/0000204"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCourse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/0000090"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#COG_AAML_1031"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/0000074"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/0000205"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/0000143"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/0000155"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/0000124"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/0000190"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/0000115"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/0000139"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/0000198"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Protocol"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/0000203"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/0000154"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/0000151"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/0000094"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/0000140"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/0000095"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/0000100"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/0000136"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#COG_AAML_1031_Arm_C_(FLT3/ITD+)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/0000197"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/0000202"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/0000084"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/0000141"/>
     </Declaration>
     <Declaration>
         <Class IRI="/0000153"/>
@@ -253,19 +289,10 @@
         <ObjectProperty IRI="/0000110"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/0000088"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/0000133"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="/0000101"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="/0000146"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/0000157"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="/0000152"/>
@@ -274,30 +301,17 @@
         <DataProperty IRI="/0000164"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="/0000075"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="/0000137"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Neoadjuvant"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/0000117"/>
     </Declaration>
     <Declaration>
         <Class IRI="/0000109"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#hasDurationDays"/>
+        <NamedIndividual IRI="/0000196"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="/0000099"/>
+        <NamedIndividual IRI="/0000201"/>
     </Declaration>
-    <EquivalentClasses>
-        <Class IRI="#Pre-phase"/>
-        <Class IRI="/0000186"/>
-    </EquivalentClasses>
     <EquivalentClasses>
         <Class IRI="/0000115"/>
         <ObjectComplementOf>
@@ -312,88 +326,6 @@
         <Class IRI="/0000134"/>
     </EquivalentClasses>
     <SubClassOf>
-        <Class IRI="#Adjuvant"/>
-        <Class IRI="/0000078"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Adjuvant"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="/0000185"/>
-            <Class IRI="#Maintenance"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Continuation"/>
-        <Class IRI="/0000078"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Definitive"/>
-        <Class IRI="/0000078"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Definitive"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="/0000185"/>
-            <Class IRI="#Adjuvant"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Delayed_Intensification"/>
-        <Class IRI="/0000078"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Induction"/>
-        <Class IRI="/0000078"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Induction"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="/0000185"/>
-            <Class IRI="/0000083"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Intensification"/>
-        <Class IRI="/0000078"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Intensification"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="/0000185"/>
-            <Class IRI="#Maintenance"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Interim_Maintenance"/>
-        <Class IRI="/0000078"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Maintenance"/>
-        <Class IRI="/0000078"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Neoadjuvant"/>
-        <Class IRI="/0000078"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Neoadjuvant"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="/0000185"/>
-            <Class IRI="#Definitive"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Pre-phase"/>
-        <Class IRI="/0000078"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Pre-phase"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="/0000185"/>
-            <Class IRI="#Induction"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#Protocol"/>
         <Class IRI="/0000117"/>
     </SubClassOf>
@@ -402,6 +334,13 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="/0000116"/>
             <Class IRI="/0000084"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Protocol"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/0000207"/>
+            <Class IRI="/0000097"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -436,25 +375,6 @@
             <DataProperty IRI="#hasRepetitions"/>
             <Datatype abbreviatedIRI="xsd:int"/>
         </DataExactCardinality>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="/0000079"/>
-        <Class IRI="/0000078"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="/0000081"/>
-        <Class IRI="/0000078"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="/0000083"/>
-        <Class IRI="/0000078"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="/0000083"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="/0000185"/>
-            <Class IRI="#Intensification"/>
-        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/0000084"/>
@@ -681,10 +601,6 @@
             <Datatype abbreviatedIRI="xsd:string"/>
         </DataSomeValuesFrom>
     </SubClassOf>
-    <SubClassOf>
-        <Class IRI="/0000186"/>
-        <Class IRI="/0000078"/>
-    </SubClassOf>
     <DisjointClasses>
         <Class IRI="/0000136"/>
         <Class IRI="/0000137"/>
@@ -710,6 +626,78 @@
         <Class IRI="/0000078"/>
         <NamedIndividual IRI="/0000190"/>
     </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/0000078"/>
+        <NamedIndividual IRI="/0000191"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/0000078"/>
+        <NamedIndividual IRI="/0000192"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/0000078"/>
+        <NamedIndividual IRI="/0000193"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/0000078"/>
+        <NamedIndividual IRI="/0000194"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/0000078"/>
+        <NamedIndividual IRI="/0000195"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/0000078"/>
+        <NamedIndividual IRI="/0000196"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/0000078"/>
+        <NamedIndividual IRI="/0000197"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/0000078"/>
+        <NamedIndividual IRI="/0000198"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/0000078"/>
+        <NamedIndividual IRI="/0000199"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/0000078"/>
+        <NamedIndividual IRI="/0000200"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/0000078"/>
+        <NamedIndividual IRI="/0000201"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/0000078"/>
+        <NamedIndividual IRI="/0000202"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/0000078"/>
+        <NamedIndividual IRI="/0000203"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/0000084"/>
+        <NamedIndividual IRI="/0000204"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/0000097"/>
+        <NamedIndividual IRI="/0000208"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/0000084"/>
+        <NamedIndividual IRI="/0000209"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/0000084"/>
+        <NamedIndividual IRI="/0000210"/>
+    </ClassAssertion>
+    <SameIndividual>
+        <NamedIndividual IRI="/0000191"/>
+        <NamedIndividual IRI="/0000192"/>
+    </SameIndividual>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="/0000077"/>
         <NamedIndividual IRI="#COG_AAML_1031"/>
@@ -726,9 +714,79 @@
         <NamedIndividual IRI="#COG_AAML_1031"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/0000207"/>
+        <NamedIndividual IRI="#COG_AAML_1031_Arm_C_(FLT3/ITD+)"/>
+        <NamedIndividual IRI="/0000208"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasPhase"/>
         <NamedIndividual IRI="/0000189"/>
         <NamedIndividual IRI="/0000190"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/0000185"/>
+        <NamedIndividual IRI="/0000192"/>
+        <NamedIndividual IRI="/0000190"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/0000184"/>
+        <NamedIndividual IRI="/0000193"/>
+        <NamedIndividual IRI="/0000190"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/0000184"/>
+        <NamedIndividual IRI="/0000194"/>
+        <NamedIndividual IRI="/0000193"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/0000184"/>
+        <NamedIndividual IRI="/0000195"/>
+        <NamedIndividual IRI="/0000194"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/0000185"/>
+        <NamedIndividual IRI="/0000197"/>
+        <NamedIndividual IRI="/0000195"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/0000185"/>
+        <NamedIndividual IRI="/0000198"/>
+        <NamedIndividual IRI="/0000199"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/0000185"/>
+        <NamedIndividual IRI="/0000199"/>
+        <NamedIndividual IRI="/0000197"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPhase"/>
+        <NamedIndividual IRI="/0000204"/>
+        <NamedIndividual IRI="/0000190"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/0000205"/>
+        <NamedIndividual IRI="/0000204"/>
+        <NamedIndividual IRI="/0000189"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPhase"/>
+        <NamedIndividual IRI="/0000209"/>
+        <NamedIndividual IRI="/0000194"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/0000205"/>
+        <NamedIndividual IRI="/0000209"/>
+        <NamedIndividual IRI="/0000204"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPhase"/>
+        <NamedIndividual IRI="/0000210"/>
+        <NamedIndividual IRI="/0000194"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/0000205"/>
+        <NamedIndividual IRI="/0000210"/>
+        <NamedIndividual IRI="/0000209"/>
     </ObjectPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="/0000075"/>
@@ -739,6 +797,21 @@
         <DataProperty IRI="/0000099"/>
         <NamedIndividual IRI="/0000189"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">28</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/0000099"/>
+        <NamedIndividual IRI="/0000204"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">36</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/0000099"/>
+        <NamedIndividual IRI="/0000209"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">33</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/0000099"/>
+        <NamedIndividual IRI="/0000210"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">6</Literal>
     </DataPropertyAssertion>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#hasCourse"/>
@@ -860,9 +933,25 @@
         <ObjectProperty IRI="/0000185"/>
         <ObjectProperty IRI="#hasPhase"/>
     </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/0000205"/>
+        <ObjectProperty IRI="/0000116"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/0000206"/>
+        <ObjectProperty IRI="/0000116"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/0000207"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
     <InverseObjectProperties>
         <ObjectProperty IRI="/0000184"/>
         <ObjectProperty IRI="/0000185"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="/0000205"/>
+        <ObjectProperty IRI="/0000206"/>
     </InverseObjectProperties>
     <FunctionalObjectProperty>
         <ObjectProperty IRI="/0000114"/>
@@ -912,6 +1001,10 @@
             <ObjectProperty IRI="/0000132"/>
             <Class IRI="/0000155"/>
         </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/0000205"/>
+        <Class IRI="/0000084"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
@@ -974,6 +1067,10 @@
     <ObjectPropertyRange>
         <ObjectProperty IRI="/0000146"/>
         <Class IRI="/0000138"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/0000205"/>
+        <Class IRI="/0000084"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
@@ -1042,36 +1139,6 @@
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Delayed_Intensification</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">needed?</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Delayed_Intensification</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">DelayedIntensificiation</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Induction</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Induction</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Intensification</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">needed?</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Interim_Maintenance</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">InterimMaintenance</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Pre-phase</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Pre-phase</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Suppotive_therapy</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">SupportiveTherapy</Literal>
@@ -1110,36 +1177,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>/0000078</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Phase</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>/0000079</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">needed?</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/0000079</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">UpFrontInductionTherapy</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>/0000081</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">needed?</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/0000081</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">SalvageTherapy</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>/0000083</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Might have to be modeled with separate post-composed consolidations for after upfront vs. after salvage, etc.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/0000083</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Consolidation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1503,11 +1540,6 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/0000186</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Pre-induction</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>/0000189</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">AAML_1031_ARM_C_FLT3_ITD_Induction_1</Literal>
     </AnnotationAssertion>
@@ -1515,6 +1547,106 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>/0000190</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Induction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000191</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">PrePhase</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000192</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">PreInduction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000193</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Consolidation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000194</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Intensification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000195</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Maintenance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000196</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">InterimMaintenance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000197</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Adjuvant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000198</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">NeoAdjuvant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000199</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Definitive</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000200</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">DelayedIntensification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000201</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Continuation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000202</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Salvage</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000203</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">UpfrontInduction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000204</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">AAML_1031_ARM_C_FLT3_ITD_Induction_2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000205</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hasPriorRegimen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000206</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hasSubsequentRegimen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000207</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hasEligibleBiomarker</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000208</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">FLT3_ITD+</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000209</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">AAML_1031_ARM_C_FLT3_ITD_Intensification_1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000210</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">AAML_1031_ARM_C_FLT3_ITD_Intensification_2</Literal>
     </AnnotationAssertion>
 </Ontology>
 
