@@ -1,13 +1,13 @@
+
+* https://hemonc.org/wiki/Acute_myeloid_leukemia,_pediatric#COG_AAML1031_arm_C_.28FLT3.2FITD.2B.29
+
+Should specific phases (Inductino, etc. be individuals? Look at pizza?
+       yes. add these 
+
 - order phases  https://www.cancerresearchuk.org/about-cancer/acute-lymphoblastic-leukaemia-all/treatment/phases
 
 
-* https://hemonc.org/wiki/Acute_myeloid_leukemia,_pediatric#COG_AAML1031_arm_C_.28FLT3.2FITD.2B.29
-	start on modeling
-	diagnosis
-	publication
-	protocol become named individuals
-
-look at units and membership https://bioportal.bioontology.org/ontologies/OM
+flook at units and membership https://bioportal.bioontology.org/ontologies/OM
 
 
 COG-AAML-1031-Aplenc
