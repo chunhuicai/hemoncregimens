@@ -1,11 +1,12 @@
+* work on ordering of phases?
+**How do i say that induction may be followed by either intensification or consoolidation?
 
-* https://hemonc.org/wiki/Acute_myeloid_leukemia,_pediatric#COG_AAML1031_arm_C_.28FLT3.2FITD.2B.29
-  intensification i
-  intensification 2
-  biormaker status
+* add cancer, cns, and locall subytypes of administration to medication administartion
+* add these administrations to regiemn
 
 
-flook at units and membership https://bioportal.bioontology.org/ontologies/OM
+continue modeling aaml https://hemonc.org/wiki/Acute_myeloid_leukemia,_pediatric#COG_AAML1031_arm_C_.28FLT3.2FITD.2B.29
+
 
 
 

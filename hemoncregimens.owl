@@ -40,10 +40,10 @@
         <ObjectProperty IRI="/0000145"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/0000158"/>
+        <DataProperty IRI="/0000163"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="/0000163"/>
+        <Class IRI="/0000158"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="/0000183"/>
@@ -100,6 +100,9 @@
         <Class IRI="/0000119"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="/0000211"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="/0000098"/>
     </Declaration>
     <Declaration>
@@ -139,10 +142,10 @@
         <Class IRI="/0000076"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/0000088"/>
+        <Class IRI="/0000133"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/0000133"/>
+        <Class IRI="/0000088"/>
     </Declaration>
     <Declaration>
         <Class IRI="/0000157"/>
@@ -175,10 +178,10 @@
         <ObjectProperty IRI="/0000125"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/0000142"/>
+        <Class IRI="/0000097"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/0000097"/>
+        <Class IRI="/0000142"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="/0000113"/>
@@ -289,10 +292,10 @@
         <ObjectProperty IRI="/0000110"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/0000101"/>
+        <ObjectProperty IRI="/0000146"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="/0000146"/>
+        <Class IRI="/0000101"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="/0000152"/>
@@ -385,13 +388,6 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#hasPhase"/>
             <Class IRI="/0000078"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="/0000084"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="/0000122"/>
-            <Class IRI="/0000119"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -694,6 +690,10 @@
         <Class IRI="/0000084"/>
         <NamedIndividual IRI="/0000210"/>
     </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/0000078"/>
+        <NamedIndividual IRI="/0000211"/>
+    </ClassAssertion>
     <SameIndividual>
         <NamedIndividual IRI="/0000191"/>
         <NamedIndividual IRI="/0000192"/>
@@ -725,6 +725,16 @@
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="/0000185"/>
+        <NamedIndividual IRI="/0000190"/>
+        <NamedIndividual IRI="/0000193"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/0000185"/>
+        <NamedIndividual IRI="/0000190"/>
+        <NamedIndividual IRI="/0000194"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/0000185"/>
         <NamedIndividual IRI="/0000192"/>
         <NamedIndividual IRI="/0000190"/>
     </ObjectPropertyAssertion>
@@ -736,7 +746,7 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="/0000184"/>
         <NamedIndividual IRI="/0000194"/>
-        <NamedIndividual IRI="/0000193"/>
+        <NamedIndividual IRI="/0000190"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="/0000184"/>
@@ -1647,6 +1657,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>/0000210</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">AAML_1031_ARM_C_FLT3_ITD_Intensification_2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000211</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ReInduction</Literal>
     </AnnotationAssertion>
 </Ontology>
 
