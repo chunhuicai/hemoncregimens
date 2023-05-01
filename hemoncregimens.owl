@@ -6,20 +6,56 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243">
-    <Prefix name="" IRI="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243"/>
+    <Prefix name="" IRI="http://www.semanticweb.org/ontologies/2022/9/untitled-ontology-243/"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Declaration>
+        <Class IRI="#AAML_1031_ARM_A_high-risk_Induction_1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AAML_1031_ARM_A_high-risk_Induction_2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AAML_1031_ARM_A_high-risk_Intensification_1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AAML_1031_ARM_A_high-risk_Intensification_2"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#AnticancerMedicationAdministration"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#LocalTherapyMedicationAdministration"/>
+        <Class IRI="#Asparaginase"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AsparaginaseAdministration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CNStherapy_prophylaxis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Daunorubicin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DaunorubicinAdministration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Etoposide"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EtoposideAdministration"/>
     </Declaration>
     <Declaration>
         <Class IRI="#MedicationAdministration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mitoxantrone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MitoxantroneAdministration"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Protocol"/>
@@ -28,10 +64,13 @@
         <Class IRI="#SupportiveTherapyMedicationAdministration"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Suppotive_therapy"/>
+        <Class IRI="#age_0"/>
     </Declaration>
     <Declaration>
         <Class IRI="#cycle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#COG_AAML1031_arm_A_(high-risk)"/>
     </Declaration>
     <Declaration>
         <Class IRI="/0000074"/>
@@ -46,15 +85,6 @@
         <Class IRI="/0000084"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/0000087"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/0000088"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/0000089"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="/0000090"/>
     </Declaration>
     <Declaration>
@@ -62,12 +92,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="/0000097"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/0000100"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/0000101"/>
     </Declaration>
     <Declaration>
         <Class IRI="/0000109"/>
@@ -128,6 +152,87 @@
     </Declaration>
     <Declaration>
         <Class IRI="/0000162"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/0000214"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/0000215"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/0000216"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/0000217"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/0000218"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/0000219"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/0000220"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/0000221"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/0000222"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/0000223"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/0000224"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/0000225"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/0000226"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/0000227"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/0000228"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/0000229"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/0000230"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/0000231"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/0000232"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/0000234"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/0000235"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/0000236"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/0000237"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/0000245"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/0000246"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/0000248"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/0000250"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#hasAnticancerMedication"/>
@@ -226,9 +331,6 @@
         <ObjectProperty IRI="/0000146"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="/0000151"/>
-    </Declaration>
-    <Declaration>
         <ObjectProperty IRI="/0000156"/>
     </Declaration>
     <Declaration>
@@ -245,6 +347,12 @@
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="/0000207"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasAge"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasDose"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#hasRepetitions"/>
@@ -268,132 +376,298 @@
         <DataProperty IRI="/0000164"/>
     </Declaration>
     <Declaration>
+        <DataProperty IRI="/0000239"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#COG_AAML_1031"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Cytarabine"/>
+        <NamedIndividual IRI="#Cytarabine_10day100mg"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#CytarabineAdministration"/>
+        <NamedIndividual IRI="#Cytarabine_4day1000mg"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Daunorubicin"/>
+        <NamedIndividual IRI="#Cytarabine_4day33mg"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#DuanorubicinAdministration"/>
+        <NamedIndividual IRI="#Cytarabine_5day1000mg"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Etoposide"/>
+        <NamedIndividual IRI="#Cytarabine_5day33mg"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#EtoposideAdministration"/>
+        <NamedIndividual IRI="#Cytarabine_age0_20mg"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cytarabine_age1_30ml"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cytarabine_age2_50ml"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cytarabine_day1-2-8-9_100mg"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cytarabine_day1-2-8-9_3000mg"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Etoposide_5day100mg"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Etoposide_5day150mg"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Etoposide_5day3.3mg"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Etoposide_5day5mg"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mitoxantrone_day3-6_0.4mg"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mitoxantrone_day3-6_12mg"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#10day3.3mg"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#5day1.7mg"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#5day50mg"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#COG_AAML_1031_Arm_C_(FLT3/ITD+)"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Cytarabine_age3+_70ml"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Elspar_day2-9_200IU/kg"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Elspar_day2-9_6000IU/m2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Erwinaze_day2-9_25000IU/m2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Erwinaze_day2-9_830IU/m2"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="/0000183"/>
     </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="/0000189"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="/0000190"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="/0000191"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="/0000192"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="/0000193"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="/0000194"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="/0000195"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="/0000196"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="/0000197"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="/0000198"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="/0000199"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="/0000200"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="/0000201"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="/0000202"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="/0000203"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="/0000204"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="/0000208"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="/0000209"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="/0000210"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="/0000211"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="/0000212"/>
-    </Declaration>
-    <EquivalentClasses>
-        <Class IRI="/0000115"/>
-        <ObjectComplementOf>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="/0000113"/>
-                <Class abbreviatedIRI="owl:Thing"/>
-            </ObjectSomeValuesFrom>
-        </ObjectComplementOf>
-    </EquivalentClasses>
     <EquivalentClasses>
         <Class IRI="/0000133"/>
         <Class IRI="/0000134"/>
     </EquivalentClasses>
     <SubClassOf>
+        <Class IRI="#AAML_1031_ARM_A_high-risk_Induction_1"/>
+        <Class IRI="/0000076"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AAML_1031_ARM_A_high-risk_Induction_1"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAnticancerMedicationAdministration"/>
+            <Class IRI="#DaunorubicinAdministration"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AAML_1031_ARM_A_high-risk_Induction_1"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAnticancerMedicationAdministration"/>
+            <Class IRI="#EtoposideAdministration"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AAML_1031_ARM_A_high-risk_Induction_1"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAnticancerMedicationAdministration"/>
+            <Class IRI="/0000248"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AAML_1031_ARM_A_high-risk_Induction_1"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasLocalTherapyMedicationAdministration"/>
+            <Class IRI="/0000250"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AAML_1031_ARM_A_high-risk_Induction_1"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPhase"/>
+            <Class IRI="/0000232"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AAML_1031_ARM_A_high-risk_Induction_2"/>
+        <Class IRI="/0000076"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AAML_1031_ARM_A_high-risk_Induction_2"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAnticancerMedicationAdministration"/>
+            <Class IRI="#MitoxantroneAdministration"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AAML_1031_ARM_A_high-risk_Induction_2"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAnticancerMedicationAdministration"/>
+            <Class IRI="/0000248"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AAML_1031_ARM_A_high-risk_Induction_2"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasLocalTherapyMedicationAdministration"/>
+            <Class IRI="/0000250"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AAML_1031_ARM_A_high-risk_Induction_2"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPhase"/>
+            <Class IRI="/0000232"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AAML_1031_ARM_A_high-risk_Intensification_1"/>
+        <Class IRI="/0000076"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AAML_1031_ARM_A_high-risk_Intensification_1"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAnticancerMedicationAdministration"/>
+            <Class IRI="#EtoposideAdministration"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AAML_1031_ARM_A_high-risk_Intensification_1"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAnticancerMedicationAdministration"/>
+            <Class IRI="/0000248"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AAML_1031_ARM_A_high-risk_Intensification_1"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasLocalTherapyMedicationAdministration"/>
+            <Class IRI="/0000250"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AAML_1031_ARM_A_high-risk_Intensification_1"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPhase"/>
+            <Class IRI="/0000228"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AAML_1031_ARM_A_high-risk_Intensification_1"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/0000184"/>
+            <Class IRI="/0000232"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AAML_1031_ARM_A_high-risk_Intensification_2"/>
+        <Class IRI="/0000076"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AAML_1031_ARM_A_high-risk_Intensification_2"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAnticancerMedicationAdministration"/>
+            <Class IRI="#AsparaginaseAdministration"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AAML_1031_ARM_A_high-risk_Intensification_2"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAnticancerMedicationAdministration"/>
+            <Class IRI="/0000248"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AAML_1031_ARM_A_high-risk_Intensification_2"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPhase"/>
+            <Class IRI="/0000228"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AAML_1031_ARM_A_high-risk_Intensification_2"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/0000184"/>
+            <Class IRI="/0000232"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#AnticancerMedicationAdministration"/>
         <Class IRI="#MedicationAdministration"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#LocalTherapyMedicationAdministration"/>
+        <Class IRI="#Asparaginase"/>
+        <Class IRI="/0000090"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AsparaginaseAdministration"/>
+        <Class IRI="/0000246"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CNStherapy_prophylaxis"/>
         <Class IRI="#MedicationAdministration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Daunorubicin"/>
+        <Class IRI="/0000090"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DaunorubicinAdministration"/>
+        <Class IRI="/0000246"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DaunorubicinAdministration"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/0000094"/>
+            <Class IRI="#Daunorubicin"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Etoposide"/>
+        <Class IRI="/0000090"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EtoposideAdministration"/>
+        <Class IRI="/0000246"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EtoposideAdministration"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/0000094"/>
+            <Class IRI="#Etoposide"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#MedicationAdministration"/>
         <Class IRI="/0000117"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#MedicationAdministration"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="/0000094"/>
-            <Class IRI="/0000090"/>
-        </ObjectSomeValuesFrom>
+        <Class IRI="#Mitoxantrone"/>
+        <Class IRI="/0000090"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#MedicationAdministration"/>
+        <Class IRI="#MitoxantroneAdministration"/>
+        <Class IRI="/0000246"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MitoxantroneAdministration"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="/0000096"/>
-            <Class IRI="/0000095"/>
+            <ObjectProperty IRI="/0000094"/>
+            <Class IRI="#Mitoxantrone"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -419,8 +693,8 @@
         <Class IRI="#MedicationAdministration"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Suppotive_therapy"/>
-        <Class IRI="/0000090"/>
+        <Class IRI="#age_0"/>
+        <Class IRI="/0000250"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#cycle"/>
@@ -432,6 +706,45 @@
             <DataProperty IRI="#hasRepetitions"/>
             <Datatype abbreviatedIRI="owl:rational"/>
         </DataMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#COG_AAML1031_arm_A_(high-risk)"/>
+        <Class IRI="#Protocol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#COG_AAML1031_arm_A_(high-risk)"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/0000116"/>
+            <Class IRI="#AAML_1031_ARM_A_high-risk_Induction_1"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#COG_AAML1031_arm_A_(high-risk)"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/0000116"/>
+            <Class IRI="#AAML_1031_ARM_A_high-risk_Induction_2"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#COG_AAML1031_arm_A_(high-risk)"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/0000116"/>
+            <Class IRI="#AAML_1031_ARM_A_high-risk_Intensification_1"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#COG_AAML1031_arm_A_(high-risk)"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/0000116"/>
+            <Class IRI="#AAML_1031_ARM_A_high-risk_Intensification_2"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#COG_AAML1031_arm_A_(high-risk)"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/0000156"/>
+            <Class IRI="/0000215"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/0000074"/>
@@ -491,28 +804,8 @@
         </DataSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/0000087"/>
-        <Class IRI="/0000100"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="/0000088"/>
-        <Class IRI="/0000101"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="/0000089"/>
-        <Class IRI="/0000088"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="/0000095"/>
         <Class IRI="/0000117"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="/0000100"/>
-        <Class IRI="/0000090"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="/0000101"/>
-        <Class IRI="/0000090"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/0000109"/>
@@ -536,17 +829,24 @@
     <SubClassOf>
         <Class IRI="/0000119"/>
         <ObjectExactCardinality cardinality="1">
-            <ObjectProperty IRI="#hasPhase"/>
-            <Class IRI="/0000078"/>
+            <ObjectProperty IRI="/0000120"/>
+            <Class IRI="/0000117"/>
         </ObjectExactCardinality>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="/0000119"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="/0000239"/>
+            <Datatype abbreviatedIRI="xsd:integer"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="/0000133"/>
-        <Class IRI="#cycle"/>
+        <Class IRI="/0000084"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/0000134"/>
-        <Class IRI="#cycle"/>
+        <Class IRI="/0000084"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/0000136"/>
@@ -646,309 +946,780 @@
             <Datatype abbreviatedIRI="xsd:string"/>
         </DataSomeValuesFrom>
     </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000214"/>
+        <Class IRI="#Protocol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000214"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/0000116"/>
+            <Class IRI="/0000216"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000214"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/0000116"/>
+            <Class IRI="/0000235"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000214"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/0000116"/>
+            <Class IRI="/0000236"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000214"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/0000116"/>
+            <Class IRI="/0000237"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000214"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/0000156"/>
+            <Class IRI="/0000215"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000214"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/0000207"/>
+            <Class IRI="/0000234"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000215"/>
+        <Class IRI="/0000155"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000216"/>
+        <Class IRI="/0000076"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000216"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAnticancerMedicationAdministration"/>
+            <Class IRI="#DaunorubicinAdministration"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000216"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAnticancerMedicationAdministration"/>
+            <Class IRI="/0000248"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000216"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPhase"/>
+            <Class IRI="/0000232"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000217"/>
+        <Class IRI="/0000078"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000218"/>
+        <Class IRI="/0000078"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000219"/>
+        <Class IRI="/0000078"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000220"/>
+        <Class IRI="/0000078"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000220"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/0000184"/>
+            <Class IRI="/0000229"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000221"/>
+        <Class IRI="/0000078"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000222"/>
+        <Class IRI="/0000078"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000223"/>
+        <Class IRI="/0000078"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000223"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/0000185"/>
+            <Class IRI="/0000225"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000224"/>
+        <Class IRI="/0000078"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000224"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/0000185"/>
+            <Class IRI="/0000223"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000225"/>
+        <Class IRI="/0000078"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000225"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/0000185"/>
+            <Class IRI="/0000227"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000226"/>
+        <Class IRI="/0000078"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000227"/>
+        <Class IRI="/0000078"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000227"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/0000184"/>
+            <Class IRI="/0000228"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000228"/>
+        <Class IRI="/0000078"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000228"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/0000184"/>
+            <Class IRI="/0000232"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000229"/>
+        <Class IRI="/0000078"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000229"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/0000184"/>
+            <Class IRI="/0000232"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000230"/>
+        <Class IRI="/0000078"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000230"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/0000185"/>
+            <Class IRI="/0000232"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000231"/>
+        <Class IRI="/0000078"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000232"/>
+        <Class IRI="/0000078"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000232"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/0000185"/>
+            <Class IRI="/0000228"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000232"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/0000185"/>
+            <Class IRI="/0000229"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000234"/>
+        <Class IRI="/0000097"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000235"/>
+        <Class IRI="/0000076"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000235"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPhase"/>
+            <Class IRI="/0000232"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000236"/>
+        <Class IRI="/0000076"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000236"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPhase"/>
+            <Class IRI="/0000228"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000237"/>
+        <Class IRI="/0000076"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000237"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPhase"/>
+            <Class IRI="/0000228"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000245"/>
+        <Class IRI="/0000090"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000246"/>
+        <Class IRI="#AnticancerMedicationAdministration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000248"/>
+        <Class IRI="/0000246"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000248"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/0000094"/>
+            <Class IRI="/0000245"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000250"/>
+        <Class IRI="#CNStherapy_prophylaxis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000250"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/0000094"/>
+            <Class IRI="/0000245"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
     <DisjointClasses>
         <Class IRI="/0000136"/>
         <Class IRI="/0000137"/>
         <Class IRI="/0000150"/>
     </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/0000217"/>
+        <Class IRI="/0000218"/>
+        <Class IRI="/0000219"/>
+        <Class IRI="/0000220"/>
+        <Class IRI="/0000221"/>
+        <Class IRI="/0000222"/>
+        <Class IRI="/0000223"/>
+        <Class IRI="/0000224"/>
+        <Class IRI="/0000225"/>
+        <Class IRI="/0000226"/>
+        <Class IRI="/0000227"/>
+        <Class IRI="/0000228"/>
+        <Class IRI="/0000229"/>
+        <Class IRI="/0000230"/>
+        <Class IRI="/0000231"/>
+        <Class IRI="/0000232"/>
+    </DisjointClasses>
     <ClassAssertion>
-        <Class IRI="/0000155"/>
-        <NamedIndividual IRI="#COG_AAML_1031"/>
+        <Class IRI="#AAML_1031_ARM_A_high-risk_Induction_1"/>
+        <NamedIndividual IRI="#Cytarabine_10day100mg"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="/0000087"/>
-        <NamedIndividual IRI="#Cytarabine"/>
+        <Class IRI="/0000248"/>
+        <NamedIndividual IRI="#Cytarabine_10day100mg"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#AnticancerMedicationAdministration"/>
-        <NamedIndividual IRI="#CytarabineAdministration"/>
+        <Class IRI="#AAML_1031_ARM_A_high-risk_Induction_2"/>
+        <NamedIndividual IRI="#Cytarabine_4day1000mg"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="/0000087"/>
-        <NamedIndividual IRI="#Daunorubicin"/>
+        <Class IRI="/0000248"/>
+        <NamedIndividual IRI="#Cytarabine_4day1000mg"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#AnticancerMedicationAdministration"/>
-        <NamedIndividual IRI="#DuanorubicinAdministration"/>
+        <Class IRI="#AAML_1031_ARM_A_high-risk_Induction_2"/>
+        <NamedIndividual IRI="#Cytarabine_4day33mg"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="/0000087"/>
-        <NamedIndividual IRI="#Etoposide"/>
+        <Class IRI="/0000248"/>
+        <NamedIndividual IRI="#Cytarabine_4day33mg"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#AnticancerMedicationAdministration"/>
-        <NamedIndividual IRI="#EtoposideAdministration"/>
+        <Class IRI="#AAML_1031_ARM_A_high-risk_Intensification_1"/>
+        <NamedIndividual IRI="#Cytarabine_5day1000mg"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/0000248"/>
+        <NamedIndividual IRI="#Cytarabine_5day1000mg"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AAML_1031_ARM_A_high-risk_Intensification_1"/>
+        <NamedIndividual IRI="#Cytarabine_5day33mg"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/0000248"/>
+        <NamedIndividual IRI="#Cytarabine_5day33mg"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AAML_1031_ARM_A_high-risk_Induction_1"/>
+        <NamedIndividual IRI="#Cytarabine_age0_20mg"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AAML_1031_ARM_A_high-risk_Induction_2"/>
+        <NamedIndividual IRI="#Cytarabine_age0_20mg"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AAML_1031_ARM_A_high-risk_Intensification_1"/>
+        <NamedIndividual IRI="#Cytarabine_age0_20mg"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#age_0"/>
+        <NamedIndividual IRI="#Cytarabine_age0_20mg"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/0000250"/>
+        <NamedIndividual IRI="#Cytarabine_age0_20mg"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AAML_1031_ARM_A_high-risk_Induction_1"/>
+        <NamedIndividual IRI="#Cytarabine_age1_30ml"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AAML_1031_ARM_A_high-risk_Induction_2"/>
+        <NamedIndividual IRI="#Cytarabine_age1_30ml"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AAML_1031_ARM_A_high-risk_Intensification_1"/>
+        <NamedIndividual IRI="#Cytarabine_age1_30ml"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/0000250"/>
+        <NamedIndividual IRI="#Cytarabine_age1_30ml"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AAML_1031_ARM_A_high-risk_Induction_1"/>
+        <NamedIndividual IRI="#Cytarabine_age2_50ml"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AAML_1031_ARM_A_high-risk_Induction_2"/>
+        <NamedIndividual IRI="#Cytarabine_age2_50ml"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AAML_1031_ARM_A_high-risk_Intensification_1"/>
+        <NamedIndividual IRI="#Cytarabine_age2_50ml"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/0000250"/>
+        <NamedIndividual IRI="#Cytarabine_age2_50ml"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AAML_1031_ARM_A_high-risk_Intensification_2"/>
+        <NamedIndividual IRI="#Cytarabine_day1-2-8-9_100mg"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/0000248"/>
+        <NamedIndividual IRI="#Cytarabine_day1-2-8-9_100mg"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AAML_1031_ARM_A_high-risk_Intensification_2"/>
+        <NamedIndividual IRI="#Cytarabine_day1-2-8-9_3000mg"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/0000248"/>
+        <NamedIndividual IRI="#Cytarabine_day1-2-8-9_3000mg"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AAML_1031_ARM_A_high-risk_Induction_1"/>
+        <NamedIndividual IRI="#Etoposide_5day100mg"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EtoposideAdministration"/>
+        <NamedIndividual IRI="#Etoposide_5day100mg"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AAML_1031_ARM_A_high-risk_Intensification_1"/>
+        <NamedIndividual IRI="#Etoposide_5day150mg"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EtoposideAdministration"/>
+        <NamedIndividual IRI="#Etoposide_5day150mg"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AAML_1031_ARM_A_high-risk_Induction_1"/>
+        <NamedIndividual IRI="#Etoposide_5day3.3mg"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EtoposideAdministration"/>
+        <NamedIndividual IRI="#Etoposide_5day3.3mg"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AAML_1031_ARM_A_high-risk_Intensification_1"/>
+        <NamedIndividual IRI="#Etoposide_5day5mg"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EtoposideAdministration"/>
+        <NamedIndividual IRI="#Etoposide_5day5mg"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AAML_1031_ARM_A_high-risk_Induction_2"/>
+        <NamedIndividual IRI="#Mitoxantrone_day3-6_0.4mg"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MitoxantroneAdministration"/>
+        <NamedIndividual IRI="#Mitoxantrone_day3-6_0.4mg"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AAML_1031_ARM_A_high-risk_Induction_2"/>
+        <NamedIndividual IRI="#Mitoxantrone_day3-6_12mg"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MitoxantroneAdministration"/>
+        <NamedIndividual IRI="#Mitoxantrone_day3-6_12mg"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AAML_1031_ARM_A_high-risk_Induction_1"/>
+        <NamedIndividual IRI="#10day3.3mg"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/0000248"/>
+        <NamedIndividual IRI="#10day3.3mg"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AAML_1031_ARM_A_high-risk_Induction_1"/>
+        <NamedIndividual IRI="#5day1.7mg"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DaunorubicinAdministration"/>
+        <NamedIndividual IRI="#5day1.7mg"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AAML_1031_ARM_A_high-risk_Induction_1"/>
+        <NamedIndividual IRI="#5day50mg"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DaunorubicinAdministration"/>
+        <NamedIndividual IRI="#5day50mg"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Protocol"/>
         <NamedIndividual IRI="#COG_AAML_1031_Arm_C_(FLT3/ITD+)"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#AAML_1031_ARM_A_high-risk_Induction_1"/>
+        <NamedIndividual IRI="#Cytarabine_age3+_70ml"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AAML_1031_ARM_A_high-risk_Induction_2"/>
+        <NamedIndividual IRI="#Cytarabine_age3+_70ml"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AAML_1031_ARM_A_high-risk_Intensification_1"/>
+        <NamedIndividual IRI="#Cytarabine_age3+_70ml"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/0000250"/>
+        <NamedIndividual IRI="#Cytarabine_age3+_70ml"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AAML_1031_ARM_A_high-risk_Intensification_2"/>
+        <NamedIndividual IRI="#Elspar_day2-9_200IU/kg"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AsparaginaseAdministration"/>
+        <NamedIndividual IRI="#Elspar_day2-9_200IU/kg"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AAML_1031_ARM_A_high-risk_Intensification_2"/>
+        <NamedIndividual IRI="#Elspar_day2-9_6000IU/m2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AsparaginaseAdministration"/>
+        <NamedIndividual IRI="#Elspar_day2-9_6000IU/m2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AAML_1031_ARM_A_high-risk_Intensification_2"/>
+        <NamedIndividual IRI="#Erwinaze_day2-9_25000IU/m2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AsparaginaseAdministration"/>
+        <NamedIndividual IRI="#Erwinaze_day2-9_25000IU/m2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AAML_1031_ARM_A_high-risk_Intensification_2"/>
+        <NamedIndividual IRI="#Erwinaze_day2-9_830IU/m2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AsparaginaseAdministration"/>
+        <NamedIndividual IRI="#Erwinaze_day2-9_830IU/m2"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="/0000074"/>
         <NamedIndividual IRI="/0000183"/>
     </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="/0000084"/>
-        <NamedIndividual IRI="/0000189"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="/0000078"/>
-        <NamedIndividual IRI="/0000190"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="/0000078"/>
-        <NamedIndividual IRI="/0000191"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="/0000078"/>
-        <NamedIndividual IRI="/0000192"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="/0000078"/>
-        <NamedIndividual IRI="/0000193"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="/0000078"/>
-        <NamedIndividual IRI="/0000194"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="/0000078"/>
-        <NamedIndividual IRI="/0000195"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="/0000078"/>
-        <NamedIndividual IRI="/0000196"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="/0000078"/>
-        <NamedIndividual IRI="/0000197"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="/0000078"/>
-        <NamedIndividual IRI="/0000198"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="/0000078"/>
-        <NamedIndividual IRI="/0000199"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="/0000078"/>
-        <NamedIndividual IRI="/0000200"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="/0000078"/>
-        <NamedIndividual IRI="/0000201"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="/0000078"/>
-        <NamedIndividual IRI="/0000202"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="/0000078"/>
-        <NamedIndividual IRI="/0000203"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="/0000084"/>
-        <NamedIndividual IRI="/0000204"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="/0000097"/>
-        <NamedIndividual IRI="/0000208"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="/0000084"/>
-        <NamedIndividual IRI="/0000209"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="/0000084"/>
-        <NamedIndividual IRI="/0000210"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="/0000078"/>
-        <NamedIndividual IRI="/0000211"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="/0000078"/>
-        <NamedIndividual IRI="/0000212"/>
-    </ClassAssertion>
-    <SameIndividual>
-        <NamedIndividual IRI="/0000191"/>
-        <NamedIndividual IRI="/0000192"/>
-    </SameIndividual>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="/0000077"/>
         <NamedIndividual IRI="#COG_AAML_1031"/>
         <NamedIndividual IRI="/0000183"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasAnticancerMedication"/>
-        <NamedIndividual IRI="#CytarabineAdministration"/>
-        <NamedIndividual IRI="#Cytarabine"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasAnticancerMedication"/>
-        <NamedIndividual IRI="#DuanorubicinAdministration"/>
-        <NamedIndividual IRI="#Daunorubicin"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasAnticancerMedication"/>
-        <NamedIndividual IRI="#EtoposideAdministration"/>
-        <NamedIndividual IRI="#Etoposide"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="/0000116"/>
-        <NamedIndividual IRI="#COG_AAML_1031_Arm_C_(FLT3/ITD+)"/>
-        <NamedIndividual IRI="/0000189"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="/0000116"/>
-        <NamedIndividual IRI="#COG_AAML_1031_Arm_C_(FLT3/ITD+)"/>
-        <NamedIndividual IRI="/0000204"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="/0000116"/>
-        <NamedIndividual IRI="#COG_AAML_1031_Arm_C_(FLT3/ITD+)"/>
-        <NamedIndividual IRI="/0000209"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="/0000116"/>
-        <NamedIndividual IRI="#COG_AAML_1031_Arm_C_(FLT3/ITD+)"/>
-        <NamedIndividual IRI="/0000210"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
         <ObjectProperty IRI="/0000156"/>
         <NamedIndividual IRI="#COG_AAML_1031_Arm_C_(FLT3/ITD+)"/>
         <NamedIndividual IRI="#COG_AAML_1031"/>
     </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="/0000207"/>
-        <NamedIndividual IRI="#COG_AAML_1031_Arm_C_(FLT3/ITD+)"/>
-        <NamedIndividual IRI="/0000208"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasAnticancerMedicationAdministration"/>
-        <NamedIndividual IRI="/0000189"/>
-        <NamedIndividual IRI="#CytarabineAdministration"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasAnticancerMedicationAdministration"/>
-        <NamedIndividual IRI="/0000189"/>
-        <NamedIndividual IRI="#DuanorubicinAdministration"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasAnticancerMedicationAdministration"/>
-        <NamedIndividual IRI="/0000189"/>
-        <NamedIndividual IRI="#EtoposideAdministration"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasPhase"/>
-        <NamedIndividual IRI="/0000189"/>
-        <NamedIndividual IRI="/0000190"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="/0000185"/>
-        <NamedIndividual IRI="/0000190"/>
-        <NamedIndividual IRI="/0000193"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="/0000185"/>
-        <NamedIndividual IRI="/0000190"/>
-        <NamedIndividual IRI="/0000194"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="/0000185"/>
-        <NamedIndividual IRI="/0000192"/>
-        <NamedIndividual IRI="/0000190"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="/0000184"/>
-        <NamedIndividual IRI="/0000193"/>
-        <NamedIndividual IRI="/0000190"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="/0000184"/>
-        <NamedIndividual IRI="/0000194"/>
-        <NamedIndividual IRI="/0000190"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="/0000184"/>
-        <NamedIndividual IRI="/0000195"/>
-        <NamedIndividual IRI="/0000194"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="/0000185"/>
-        <NamedIndividual IRI="/0000197"/>
-        <NamedIndividual IRI="/0000195"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="/0000185"/>
-        <NamedIndividual IRI="/0000198"/>
-        <NamedIndividual IRI="/0000199"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="/0000185"/>
-        <NamedIndividual IRI="/0000199"/>
-        <NamedIndividual IRI="/0000197"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasPhase"/>
-        <NamedIndividual IRI="/0000204"/>
-        <NamedIndividual IRI="/0000190"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="/0000205"/>
-        <NamedIndividual IRI="/0000204"/>
-        <NamedIndividual IRI="/0000189"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasPhase"/>
-        <NamedIndividual IRI="/0000209"/>
-        <NamedIndividual IRI="/0000194"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="/0000205"/>
-        <NamedIndividual IRI="/0000209"/>
-        <NamedIndividual IRI="/0000204"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasPhase"/>
-        <NamedIndividual IRI="/0000210"/>
-        <NamedIndividual IRI="/0000194"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="/0000205"/>
-        <NamedIndividual IRI="/0000210"/>
-        <NamedIndividual IRI="/0000209"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="/0000184"/>
-        <NamedIndividual IRI="/0000212"/>
-        <NamedIndividual IRI="/0000193"/>
-    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDose"/>
+        <NamedIndividual IRI="#Cytarabine_10day100mg"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">100</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/0000099"/>
+        <NamedIndividual IRI="#Cytarabine_10day100mg"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDose"/>
+        <NamedIndividual IRI="#Cytarabine_4day1000mg"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/0000099"/>
+        <NamedIndividual IRI="#Cytarabine_4day1000mg"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDose"/>
+        <NamedIndividual IRI="#Cytarabine_4day33mg"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">33</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/0000099"/>
+        <NamedIndividual IRI="#Cytarabine_4day33mg"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDose"/>
+        <NamedIndividual IRI="#Cytarabine_5day1000mg"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/0000099"/>
+        <NamedIndividual IRI="#Cytarabine_5day1000mg"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/0000099"/>
+        <NamedIndividual IRI="#Cytarabine_5day33mg"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">33</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/0000099"/>
+        <NamedIndividual IRI="#Cytarabine_5day33mg"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasAge"/>
+        <NamedIndividual IRI="#Cytarabine_age0_20mg"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDose"/>
+        <NamedIndividual IRI="#Cytarabine_age0_20mg"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">20</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDose"/>
+        <NamedIndividual IRI="#Cytarabine_age1_30ml"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDose"/>
+        <NamedIndividual IRI="#Cytarabine_age2_50ml"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">50</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDose"/>
+        <NamedIndividual IRI="#Cytarabine_day1-2-8-9_100mg"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">100</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/0000099"/>
+        <NamedIndividual IRI="#Cytarabine_day1-2-8-9_100mg"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">9</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDose"/>
+        <NamedIndividual IRI="#Cytarabine_day1-2-8-9_3000mg"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/0000099"/>
+        <NamedIndividual IRI="#Cytarabine_day1-2-8-9_3000mg"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">9</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDose"/>
+        <NamedIndividual IRI="#Etoposide_5day100mg"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">100</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/0000099"/>
+        <NamedIndividual IRI="#Etoposide_5day100mg"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDose"/>
+        <NamedIndividual IRI="#Etoposide_5day150mg"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">150</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/0000099"/>
+        <NamedIndividual IRI="#Etoposide_5day150mg"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/0000099"/>
+        <NamedIndividual IRI="#Etoposide_5day3.3mg"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3.3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/0000099"/>
+        <NamedIndividual IRI="#Etoposide_5day3.3mg"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDose"/>
+        <NamedIndividual IRI="#Etoposide_5day5mg"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/0000099"/>
+        <NamedIndividual IRI="#Etoposide_5day5mg"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDose"/>
+        <NamedIndividual IRI="#Mitoxantrone_day3-6_0.4mg"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0.4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/0000099"/>
+        <NamedIndividual IRI="#Mitoxantrone_day3-6_0.4mg"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDose"/>
+        <NamedIndividual IRI="#Mitoxantrone_day3-6_12mg"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">12</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/0000099"/>
+        <NamedIndividual IRI="#Mitoxantrone_day3-6_12mg"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDose"/>
+        <NamedIndividual IRI="#10day3.3mg"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3.3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/0000099"/>
+        <NamedIndividual IRI="#10day3.3mg"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDose"/>
+        <NamedIndividual IRI="#5day1.7mg"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1.7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/0000099"/>
+        <NamedIndividual IRI="#5day1.7mg"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDose"/>
+        <NamedIndividual IRI="#5day50mg"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">50</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/0000099"/>
+        <NamedIndividual IRI="#5day50mg"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDose"/>
+        <NamedIndividual IRI="#Cytarabine_age3+_70ml"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">70</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDose"/>
+        <NamedIndividual IRI="#Elspar_day2-9_200IU/kg"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">200</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/0000099"/>
+        <NamedIndividual IRI="#Elspar_day2-9_200IU/kg"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">9</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDose"/>
+        <NamedIndividual IRI="#Elspar_day2-9_6000IU/m2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">6000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/0000099"/>
+        <NamedIndividual IRI="#Elspar_day2-9_6000IU/m2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">9</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDose"/>
+        <NamedIndividual IRI="#Erwinaze_day2-9_25000IU/m2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">25000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/0000099"/>
+        <NamedIndividual IRI="#Erwinaze_day2-9_25000IU/m2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">9</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDose"/>
+        <NamedIndividual IRI="#Erwinaze_day2-9_830IU/m2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">830</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/0000099"/>
+        <NamedIndividual IRI="#Erwinaze_day2-9_830IU/m2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">9</Literal>
+    </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="/0000075"/>
         <NamedIndividual IRI="/0000183"/>
         <Literal>10.3324/haematol.2019.220962</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="/0000099"/>
-        <NamedIndividual IRI="/0000189"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">28</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="/0000099"/>
-        <NamedIndividual IRI="/0000204"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">36</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="/0000099"/>
-        <NamedIndividual IRI="/0000209"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">33</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="/0000099"/>
-        <NamedIndividual IRI="/0000210"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">6</Literal>
     </DataPropertyAssertion>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#hasAnticancerMedication"/>
@@ -1083,10 +1854,6 @@
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="/0000151"/>
-        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
         <ObjectProperty IRI="/0000156"/>
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </SubObjectPropertyOf>
@@ -1171,10 +1938,6 @@
         <ObjectProperty IRI="/0000205"/>
         <Class IRI="/0000084"/>
     </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
-        <Class IRI="/0000084"/>
-    </ObjectPropertyDomain>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#hasCourse"/>
         <Class IRI="/0000084"/>
@@ -1204,6 +1967,10 @@
             <DataProperty IRI="/0000099"/>
             <Datatype abbreviatedIRI="xsd:integer"/>
         </DataSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/0000113"/>
+        <Class IRI="/0000109"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="/0000116"/>
@@ -1237,10 +2004,10 @@
         <ObjectProperty IRI="/0000205"/>
         <Class IRI="/0000084"/>
     </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
-        <Class IRI="/0000078"/>
-    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasDose"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
     <SubDataPropertyOf>
         <DataProperty IRI="#hasRepetitions"/>
         <DataProperty abbreviatedIRI="owl:topDataProperty"/>
@@ -1265,6 +2032,13 @@
         <DataProperty IRI="/0000164"/>
         <DataProperty abbreviatedIRI="owl:topDataProperty"/>
     </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasDose"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/0000096"/>
+            <Class IRI="/0000095"/>
+        </ObjectSomeValuesFrom>
+    </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#hasRepetitions"/>
         <Class IRI="/0000084"/>
@@ -1284,8 +2058,20 @@
         </DataSomeValuesFrom>
     </DataPropertyDomain>
     <DataPropertyRange>
+        <DataProperty IRI="#hasAge"/>
+        <DatatypeRestriction>
+            <Datatype abbreviatedIRI="xsd:float"/>
+            <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">0.0</Literal>
+            </FacetRestriction>
+            <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxInclusive">
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">1.0</Literal>
+            </FacetRestriction>
+        </DatatypeRestriction>
+    </DataPropertyRange>
+    <DataPropertyRange>
         <DataProperty IRI="#hasRepetitions"/>
-        <Datatype abbreviatedIRI="xsd:integer"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="/0000152"/>
@@ -1303,15 +2089,289 @@
         <DataProperty IRI="/0000164"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/0000239"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Cytarabine_10day100mg</IRI>
+        <Literal xml:lang="en">BSA 0.6 m2 or more: 100 mg/m2 IV over 1 to 30 minutes every 12 hours on days 1 to 10</Literal>
+    </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Suppotive_therapy</IRI>
-        <Literal>SupportiveTherapy</Literal>
+        <IRI>#Cytarabine_10day100mg</IRI>
+        <Literal xml:lang="en">Cytarabine_10day100mg</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Cytarabine_4day1000mg</IRI>
+        <Literal xml:lang="en">BSA 0.6 m2 or more: 1000 mg/m2 IV over 1 to 3 hours every 12 hours on days 1 to 4</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Cytarabine_4day1000mg</IRI>
+        <Literal xml:lang="en">Cytarabine_4day1000mg</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Cytarabine_4day33mg</IRI>
+        <Literal xml:lang="en">BSA less than 0.6 m2: 33 mg/kg IV over 1 to 3 hours every 12 hours on days 1 to 4</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Cytarabine_4day33mg</IRI>
+        <Literal xml:lang="en">Cytarabine_4day33mg</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Cytarabine_5day1000mg</IRI>
+        <Literal xml:lang="en">BSA 0.6 m2 or more: 1000 mg/m2 IV over 1 to 3 hours every 12 hours on days 1 to 5</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Cytarabine_5day1000mg</IRI>
+        <Literal xml:lang="en">Cytarabine_5day1000mg</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Cytarabine_5day33mg</IRI>
+        <Literal xml:lang="en">BSA less than 0.6 m2: 33 mg/kg IV over 1 to 3 hours every 12 hours on days 1 to 5</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Cytarabine_5day33mg</IRI>
+        <Literal xml:lang="en">Cytarabine_5day33mg</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Cytarabine_age0_20mg</IRI>
+        <Literal xml:lang="en">Age: 0-0.99; Dose: 20</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Cytarabine_age0_20mg</IRI>
+        <Literal xml:lang="en">Cytarabine_age0_20mg</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Cytarabine_age1_30ml</IRI>
+        <Literal xml:lang="en">Age: 1-1.99; Dose: 30</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Cytarabine_age1_30ml</IRI>
+        <Literal xml:lang="en">Cytarabine_age1_30mg</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Cytarabine_age2_50ml</IRI>
+        <Literal xml:lang="en">Age: 2-2.99; Dose: 50</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Cytarabine_age2_50ml</IRI>
+        <Literal xml:lang="en">Cytarabine_age2_50mg</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Cytarabine_day1-2-8-9_100mg</IRI>
+        <Literal xml:lang="en">BSA less than 0.6 m2: 100 mg/kg IV over 3 hours every 12 hours on days 1, 2, 8, 9</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Cytarabine_day1-2-8-9_100mg</IRI>
+        <Literal xml:lang="en">Cytarabine_day1-2-8-9_100mg</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Cytarabine_day1-2-8-9_3000mg</IRI>
+        <Literal xml:lang="en">BSA 0.6 m2 or more: 3000 mg/m2 IV over 3 hours every 12 hours on days 1, 2, 8, 9</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Cytarabine_day1-2-8-9_3000mg</IRI>
+        <Literal xml:lang="en">Cytarabine_day1-2-8-9_3000mg</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DaunorubicinAdministration</IRI>
+        <Literal xml:lang="en">DaunorubicinAdministration</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EtoposideAdministration</IRI>
+        <Literal xml:lang="en">EtoposideAdministration</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Etoposide_5day100mg</IRI>
+        <Literal xml:lang="en">BSA 0.6 m2 or more: 100 mg/m2 IV over 60 to 120 minutes once per day on days 1 to 5</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Etoposide_5day100mg</IRI>
+        <Literal xml:lang="en">Etoposide_5day100mg</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Etoposide_5day150mg</IRI>
+        <Literal xml:lang="en">BSA 0.6 m2 or more: 150 mg/m2 IV over 60 to 120 minutes once per day on days 1 to 5</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Etoposide_5day150mg</IRI>
+        <Literal xml:lang="en">Etoposide_5day150mg</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Etoposide_5day3.3mg</IRI>
+        <Literal xml:lang="en">BSA less than 0.6 m2: 3.3 mg/kg IV over 60 to 120 minutes once per day on days 1 to 5</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Etoposide_5day3.3mg</IRI>
+        <Literal xml:lang="en">Etoposide_5day3.3mg</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Etoposide_5day5mg</IRI>
+        <Literal xml:lang="en">BSA less than 0.6 m2: 5 mg/kg IV over 60 to 120 minutes once per day on days 1 to 5</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Etoposide_5day5mg</IRI>
+        <Literal xml:lang="en">Etoposide_5day5mg</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Mitoxantrone</IRI>
+        <Literal xml:lang="en">Mitoxantrone</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Mitoxantrone_day3-6_0.4mg</IRI>
+        <Literal xml:lang="en">BSA less than 0.6 m2: 0.4 mg/kg once per day on days 3 to 6.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Mitoxantrone_day3-6_0.4mg</IRI>
+        <Literal xml:lang="en">Mitoxantrone_day3-6_0.4mg</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Mitoxantrone_day3-6_12mg</IRI>
+        <Literal xml:lang="en">BSA 0.6 m2 or more: 12 mg/m2 IV over 15 to 30 minutes once per day on days 3 to 6</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Mitoxantrone_day3-6_12mg</IRI>
+        <Literal xml:lang="en">Mitoxantrone_day3-6_12mg</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#age_0</IRI>
+        <Literal xml:lang="en">Cytarabine_CNS_age_0</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#cycle</IRI>
         <Literal>Cycle</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasDose</IRI>
+        <Literal xml:lang="en">unit: mg</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasDose</IRI>
+        <Literal xml:lang="en">hasDose</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#10day3.3mg</IRI>
+        <Literal xml:lang="en">BSA less than 0.6 m2: 3.3 mg/kg IV over 1 to 30 minutes every 12 hours on days 1 to 10</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#10day3.3mg</IRI>
+        <Literal xml:lang="en">Cytarabine_10day3.3mg</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#5day1.7mg</IRI>
+        <Literal xml:lang="en">BSA less than 0.6 m2: 1.7 mg/kg IV over 1 to 15 minutes once per day on days 1, 3, 5</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#5day1.7mg</IRI>
+        <Literal xml:lang="en">Daunorubicin_5day1.7mg</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#5day50mg</IRI>
+        <Literal xml:lang="en">BSA 0.6 m2 or more: 50 mg/m2 IV over 1 to 15 minutes once per day on days 1, 3, 5</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#5day50mg</IRI>
+        <Literal xml:lang="en">Daunorubicin_5day50mg</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#COG_AAML1031_arm_A_(high-risk)</IRI>
+        <Literal xml:lang="en">COG_AAML_1031_Arm_A_(high-risk)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Cytarabine_age3+_70ml</IRI>
+        <Literal xml:lang="en">Age: 3+; Dose: 70</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Cytarabine_age3+_70ml</IRI>
+        <Literal xml:lang="en">Cytarabine_age3+_70mg</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Elspar_day2-9_200IU/kg</IRI>
+        <Literal xml:lang="en">BSA less than 0.6 m2: 200 IU/kg IM on Day 2 (at hour 42), Day 9 (at hour 42 after the start of the 1st dose of cytarabine on Day 8)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Elspar_day2-9_200IU/kg</IRI>
+        <Literal xml:lang="en">Elspar_day2-9_200IU/kg</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Elspar_day2-9_6000IU/m2</IRI>
+        <Literal xml:lang="en">BSA 0.6 m2 or more: 6000 IU/m2 IM once per day on days 2 (at hour 42) &amp; 9 (at hour 42 after the start of the 1st dose of cytarabine on Day 8)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Elspar_day2-9_6000IU/m2</IRI>
+        <Literal xml:lang="en">Elspar_day2-9_6000IU/m2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Erwinaze_day2-9_25000IU/m2</IRI>
+        <Literal xml:lang="en">BSA 0.6 m2 or more: 25,000 IU/m2 IM on Day 2 (at hour 42), Day 9 (at hour 42 after the start of the 1st dose of cytarabine on Day 8)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Erwinaze_day2-9_25000IU/m2</IRI>
+        <Literal xml:lang="en">Erwinaze_day2-9_25000IU/m2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Erwinaze_day2-9_830IU/m2</IRI>
+        <Literal>BSA less than 0.6 m2: 830 IU/kg IM on Day 2 (at hour 42), Day 9 (at hour 42 after the start of the 1st dose of cytarabine on Day 8)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Erwinaze_day2-9_830IU/m2</IRI>
+        <Literal xml:lang="en">Erwinaze_day2-9_830IU/m2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1355,21 +2415,6 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/0000087</IRI>
-        <Literal xml:lang="en">Chemotherapy</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/0000088</IRI>
-        <Literal xml:lang="en">CNS therapy, prophylaxis</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/0000089</IRI>
-        <Literal xml:lang="en">Glucocortisoid</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>/0000090</IRI>
         <Literal xml:lang="en">Medication</Literal>
     </AnnotationAssertion>
@@ -1409,19 +2454,14 @@
         <Literal xml:lang="en">hasDuration</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/0000099</IRI>
+        <Literal xml:lang="en">unit: day</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>/0000099</IRI>
         <Literal xml:lang="en">hasDuration</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/0000100</IRI>
-        <Literal xml:lang="en">Anticancer</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/0000101</IRI>
-        <Literal xml:lang="en">LocalTherapy</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1610,11 +2650,6 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/0000151</IRI>
-        <Literal xml:lang="en">hasPriorTherapy</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>/0000152</IRI>
         <Literal xml:lang="en">hasPriorTherapy</Literal>
     </AnnotationAssertion>
@@ -1685,86 +2720,6 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/0000189</IRI>
-        <Literal xml:lang="en">AAML_1031_ARM_C_FLT3_ITD_Induction_1</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/0000190</IRI>
-        <Literal xml:lang="en">Induction</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/0000191</IRI>
-        <Literal xml:lang="en">PrePhase</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/0000192</IRI>
-        <Literal xml:lang="en">PreInduction</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/0000193</IRI>
-        <Literal xml:lang="en">Consolidation</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/0000194</IRI>
-        <Literal xml:lang="en">Intensification</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/0000195</IRI>
-        <Literal xml:lang="en">Maintenance</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/0000196</IRI>
-        <Literal xml:lang="en">InterimMaintenance</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/0000197</IRI>
-        <Literal xml:lang="en">Adjuvant</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/0000198</IRI>
-        <Literal xml:lang="en">NeoAdjuvant</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/0000199</IRI>
-        <Literal xml:lang="en">Definitive</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/0000200</IRI>
-        <Literal xml:lang="en">DelayedIntensification</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/0000201</IRI>
-        <Literal xml:lang="en">Continuation</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/0000202</IRI>
-        <Literal xml:lang="en">Salvage</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/0000203</IRI>
-        <Literal xml:lang="en">UpfrontInduction</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/0000204</IRI>
-        <Literal xml:lang="en">AAML_1031_ARM_C_FLT3_ITD_Induction_2</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>/0000205</IRI>
         <Literal xml:lang="en">hasPriorRegimen</Literal>
     </AnnotationAssertion>
@@ -1780,32 +2735,147 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/0000208</IRI>
-        <Literal xml:lang="en">FLT3_ITD+</Literal>
+        <IRI>/0000214</IRI>
+        <Literal xml:lang="en">COG_AAML_1031_Arm_C_(FLT3/ITD+)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/0000209</IRI>
-        <Literal xml:lang="en">AAML_1031_ARM_C_FLT3_ITD_Intensification_1</Literal>
+        <IRI>/0000215</IRI>
+        <Literal xml:lang="en">COG_AAML_1031</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/0000210</IRI>
-        <Literal xml:lang="en">AAML_1031_ARM_C_FLT3_ITD_Intensification_2</Literal>
+        <IRI>/0000216</IRI>
+        <Literal xml:lang="en">AAML_1031_ARM_C_FLT3_ITD_Induction_1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/0000211</IRI>
+        <IRI>/0000217</IRI>
+        <Literal xml:lang="en">UpfrontInduction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000218</IRI>
+        <Literal xml:lang="en">Salvage</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000219</IRI>
+        <Literal xml:lang="en">Continuation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000220</IRI>
+        <Literal xml:lang="en">PostConsolidation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000221</IRI>
         <Literal xml:lang="en">ReInduction</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/0000212</IRI>
-        <Literal xml:lang="en">PostConsolidation</Literal>
+        <IRI>/0000222</IRI>
+        <Literal xml:lang="en">DelayedIntensification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000223</IRI>
+        <Literal xml:lang="en">Definitive</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000224</IRI>
+        <Literal xml:lang="en">NeoAdjuvant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000225</IRI>
+        <Literal xml:lang="en">Adjuvant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000226</IRI>
+        <Literal xml:lang="en">InterimMaintenance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000227</IRI>
+        <Literal xml:lang="en">Maintenance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000228</IRI>
+        <Literal xml:lang="en">Intensification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000229</IRI>
+        <Literal xml:lang="en">Consolidation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000230</IRI>
+        <Literal xml:lang="en">PreInduction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000231</IRI>
+        <Literal xml:lang="en">PrePhase</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000232</IRI>
+        <Literal xml:lang="en">Induction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000234</IRI>
+        <Literal xml:lang="en">FLT3_ITD+</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000235</IRI>
+        <Literal xml:lang="en">AAML_1031_ARM_C_FLT3_ITD_Induction_2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000236</IRI>
+        <Literal xml:lang="en">AAML_1031_ARM_C_FLT3_ITD_Intensification_1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000237</IRI>
+        <Literal xml:lang="en">AAML_1031_ARM_C_FLT3_ITD_Intensification_2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000239</IRI>
+        <Literal xml:lang="en">hasIntervalBeforeNextTreatment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000245</IRI>
+        <Literal xml:lang="en">Cytarabine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000246</IRI>
+        <Literal xml:lang="en">ChemotherapyMedicationAdministration</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000248</IRI>
+        <Literal xml:lang="en">CytarabineAdministration-Chemo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/0000250</IRI>
+        <Literal xml:lang="en">CytarabineAdministration-CNS</Literal>
     </AnnotationAssertion>
 </Ontology>
 
 
 
-<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.24.2023-01-14T21:28:32Z) https://github.com/owlcs/owlapi -->
 
