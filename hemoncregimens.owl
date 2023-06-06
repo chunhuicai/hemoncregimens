@@ -70,6 +70,12 @@
         <Class IRI="#MitoxantroneAdministration"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Part"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Portion"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Systematic"/>
     </Declaration>
     <Declaration>
@@ -86,6 +92,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#COG_AAML1031_arm_A_(high-risk)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Protocol"/>
     </Declaration>
     <Declaration>
         <Class IRI="/0000074"/>
@@ -155,9 +164,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="/0000150"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/0000153"/>
     </Declaration>
     <Declaration>
         <Class IRI="/0000155"/>
@@ -474,6 +480,10 @@
     </EquivalentClasses>
     <SubClassOf>
         <Class IRI="#AAML_1031_ARM_A_high-risk_Induction_1"/>
+        <Class IRI="#Part"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AAML_1031_ARM_A_high-risk_Induction_1"/>
         <Class IRI="#SystematicAnticancerTreatmentRegimen"/>
     </SubClassOf>
     <SubClassOf>
@@ -513,6 +523,10 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#AAML_1031_ARM_A_high-risk_Induction_2"/>
+        <Class IRI="#Part"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AAML_1031_ARM_A_high-risk_Induction_2"/>
         <Class IRI="#SystematicAnticancerTreatmentRegimen"/>
     </SubClassOf>
     <SubClassOf>
@@ -542,6 +556,10 @@
             <ObjectProperty IRI="#hasPhase"/>
             <Class IRI="/0000232"/>
         </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AAML_1031_ARM_A_high-risk_Intensification_1"/>
+        <Class IRI="#Part"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#AAML_1031_ARM_A_high-risk_Intensification_1"/>
@@ -581,6 +599,10 @@
             <ObjectProperty IRI="/0000184"/>
             <Class IRI="/0000232"/>
         </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AAML_1031_ARM_A_high-risk_Intensification_2"/>
+        <Class IRI="#Part"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#AAML_1031_ARM_A_high-risk_Intensification_2"/>
@@ -696,6 +718,14 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Part"/>
+        <Class IRI="/0000084"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Portion"/>
+        <Class IRI="/0000084"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Systematic"/>
         <Class IRI="#AntiCancer"/>
     </SubClassOf>
@@ -724,7 +754,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#COG_AAML1031_arm_A_(high-risk)"/>
-        <Class IRI="/0000153"/>
+        <Class IRI="/Protocol"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#COG_AAML1031_arm_A_(high-risk)"/>
@@ -760,6 +790,48 @@
             <ObjectProperty IRI="/0000156"/>
             <Class IRI="/0000215"/>
         </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Protocol"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/0000122"/>
+            <Class IRI="/0000119"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Protocol"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/0000146"/>
+            <Class IRI="/0000138"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Protocol"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="/0000144"/>
+            <Class IRI="/0000135"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Protocol"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="/0000145"/>
+            <Class IRI="/0000141"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Protocol"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="/0000152"/>
+            <Datatype abbreviatedIRI="xsd:boolean"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Protocol"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="/0000154"/>
+            <Datatype abbreviatedIRI="xsd:boolean"/>
+        </DataSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/0000074"/>
@@ -867,48 +939,6 @@
         <Class IRI="/0000135"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/0000153"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="/0000122"/>
-            <Class IRI="/0000119"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="/0000153"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="/0000146"/>
-            <Class IRI="/0000138"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="/0000153"/>
-        <ObjectMinCardinality cardinality="1">
-            <ObjectProperty IRI="/0000144"/>
-            <Class IRI="/0000135"/>
-        </ObjectMinCardinality>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="/0000153"/>
-        <ObjectMinCardinality cardinality="1">
-            <ObjectProperty IRI="/0000145"/>
-            <Class IRI="/0000141"/>
-        </ObjectMinCardinality>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="/0000153"/>
-        <DataSomeValuesFrom>
-            <DataProperty IRI="/0000152"/>
-            <Datatype abbreviatedIRI="xsd:boolean"/>
-        </DataSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="/0000153"/>
-        <DataSomeValuesFrom>
-            <DataProperty IRI="/0000154"/>
-            <Datatype abbreviatedIRI="xsd:boolean"/>
-        </DataSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="/0000155"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="/0000077"/>
@@ -931,7 +961,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/0000214"/>
-        <Class IRI="/0000153"/>
+        <Class IRI="/Protocol"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/0000214"/>
@@ -978,6 +1008,10 @@
     <SubClassOf>
         <Class IRI="/0000215"/>
         <Class IRI="/0000155"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000216"/>
+        <Class IRI="#Part"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/0000216"/>
@@ -1144,6 +1178,10 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/0000235"/>
+        <Class IRI="#Part"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000235"/>
         <Class IRI="#SystematicAnticancerTreatmentRegimen"/>
     </SubClassOf>
     <SubClassOf>
@@ -1155,6 +1193,10 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/0000236"/>
+        <Class IRI="#Part"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000236"/>
         <Class IRI="#SystematicAnticancerTreatmentRegimen"/>
     </SubClassOf>
     <SubClassOf>
@@ -1163,6 +1205,10 @@
             <ObjectProperty IRI="#hasPhase"/>
             <Class IRI="/0000228"/>
         </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000237"/>
+        <Class IRI="#Part"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/0000237"/>
@@ -2334,6 +2380,16 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/Protocol</IRI>
+        <Literal>Cancer care for an individual can be thought of as a series of attempted treatments known as lines. Lines are guided by intents, indicating whether they are “curative”, “palliative”, or “borderline”. Lines might also be distinguished by inflection points (relapsed or refractory), prognosis (incurable, curable) and possibly indication of prior therapy (untreated).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Protocol</IRI>
+        <Literal xml:lang="en">Protocol</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>/0000074</IRI>
         <Literal>flesh out publication with the usual details as appropriate. sor some reasonnot saving with hasDOI as a data property..</Literal>
     </AnnotationAssertion>
@@ -2608,16 +2664,6 @@
         <Literal xml:lang="en">hasPriorTherapy</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>/0000153</IRI>
-        <Literal>Cancer care for an individual can be thought of as a series of attempted treatments known as lines. Lines are guided by intents, indicating whether they are “curative”, “palliative”, or “borderline”. Lines might also be distinguished by inflection points (relapsed or refractory), prognosis (incurable, curable) and possibly indication of prior therapy (untreated).</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/0000153</IRI>
-        <Literal xml:lang="en">Line</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>/0000154</IRI>
         <Literal xml:lang="en">isDeterminate</Literal>
@@ -2826,5 +2872,5 @@
 
 
 
-<!-- Generated by the OWL API (version 4.5.24.2023-01-14T21:28:32Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
 
