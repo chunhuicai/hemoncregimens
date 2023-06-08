@@ -49,19 +49,40 @@
         <Class IRI="#DaunorubicinAdministration"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Eligibility"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Etoposide"/>
     </Declaration>
     <Declaration>
         <Class IRI="#EtoposideAdministration"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#ExtentofDisease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fitness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Histology"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Local"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Localized"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LocallyAdvanced"/>
     </Declaration>
     <Declaration>
         <Class IRI="#LocoregionalAnticancerTreatmentRegimen"/>
     </Declaration>
     <Declaration>
         <Class IRI="#MedicationAdministration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Metastatic"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Mitoxantrone"/>
@@ -73,7 +94,25 @@
         <Class IRI="#Part"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#PatientPhenotype"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Portion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Refractory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Relapsed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Resectable"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Resistance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sensitivity"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Systematic"/>
@@ -85,10 +124,16 @@
         <Class IRI="#TargetedtherapyAdministration"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#age_0"/>
+        <Class IRI="#Tolerance"/>
     </Declaration>
     <Declaration>
         <Class IRI="#cycle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#resectable"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#unresectable"/>
     </Declaration>
     <Declaration>
         <Class IRI="#COG_AAML1031_arm_A_(high-risk)"/>
@@ -143,9 +188,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="/0000137"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/0000138"/>
     </Declaration>
     <Declaration>
         <Class IRI="/0000139"/>
@@ -488,6 +530,10 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#AAML_1031_ARM_A_high-risk_Induction_1"/>
+        <Class IRI="/0000232"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AAML_1031_ARM_A_high-risk_Induction_1"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#hasAnticancerMedicationAdministration"/>
             <Class IRI="#DaunorubicinAdministration"/>
@@ -531,6 +577,10 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#AAML_1031_ARM_A_high-risk_Induction_2"/>
+        <Class IRI="/0000232"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AAML_1031_ARM_A_high-risk_Induction_2"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#hasAnticancerMedicationAdministration"/>
             <Class IRI="#MitoxantroneAdministration"/>
@@ -564,6 +614,10 @@
     <SubClassOf>
         <Class IRI="#AAML_1031_ARM_A_high-risk_Intensification_1"/>
         <Class IRI="#SystematicAnticancerTreatmentRegimen"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AAML_1031_ARM_A_high-risk_Intensification_1"/>
+        <Class IRI="/0000228"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#AAML_1031_ARM_A_high-risk_Intensification_1"/>
@@ -607,6 +661,10 @@
     <SubClassOf>
         <Class IRI="#AAML_1031_ARM_A_high-risk_Intensification_2"/>
         <Class IRI="#SystematicAnticancerTreatmentRegimen"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AAML_1031_ARM_A_high-risk_Intensification_2"/>
+        <Class IRI="/0000228"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#AAML_1031_ARM_A_high-risk_Intensification_2"/>
@@ -676,6 +734,10 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Eligibility"/>
+        <Class IRI="#PatientPhenotype"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Etoposide"/>
         <Class IRI="/0000090"/>
     </SubClassOf>
@@ -691,8 +753,20 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Fitness"/>
+        <Class IRI="#PatientPhenotype"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Local"/>
         <Class IRI="#MedicationAdministration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Localized"/>
+        <Class IRI="#ExtentofDisease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LocallyAdvanced"/>
+        <Class IRI="#ExtentofDisease"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#LocoregionalAnticancerTreatmentRegimen"/>
@@ -701,6 +775,10 @@
     <SubClassOf>
         <Class IRI="#MedicationAdministration"/>
         <Class IRI="/0000117"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Metastatic"/>
+        <Class IRI="#ExtentofDisease"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Mitoxantrone"/>
@@ -726,6 +804,22 @@
         <Class IRI="/0000084"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Refractory"/>
+        <Class IRI="#PatientPhenotype"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Relapsed"/>
+        <Class IRI="#PatientPhenotype"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Resistance"/>
+        <Class IRI="#PatientPhenotype"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sensitivity"/>
+        <Class IRI="#PatientPhenotype"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Systematic"/>
         <Class IRI="#AntiCancer"/>
     </SubClassOf>
@@ -738,8 +832,8 @@
         <Class IRI="#Systematic"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#age_0"/>
-        <Class IRI="/0000250"/>
+        <Class IRI="#Tolerance"/>
+        <Class IRI="#PatientPhenotype"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#cycle"/>
@@ -753,8 +847,20 @@
         </DataMinCardinality>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#resectable"/>
+        <Class IRI="#Resectable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#unresectable"/>
+        <Class IRI="#Resectable"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#COG_AAML1031_arm_A_(high-risk)"/>
         <Class IRI="/Protocol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#COG_AAML1031_arm_A_(high-risk)"/>
+        <Class IRI="/0000215"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#COG_AAML1031_arm_A_(high-risk)"/>
@@ -796,13 +902,6 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="/0000122"/>
             <Class IRI="/0000119"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="/Protocol"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="/0000146"/>
-            <Class IRI="/0000138"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -919,14 +1018,6 @@
         <Class IRI="/0000135"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/0000139"/>
-        <Class IRI="/0000138"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="/0000140"/>
-        <Class IRI="/0000138"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="/0000142"/>
         <Class IRI="/0000141"/>
     </SubClassOf>
@@ -962,6 +1053,10 @@
     <SubClassOf>
         <Class IRI="/0000214"/>
         <Class IRI="/Protocol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000214"/>
+        <Class IRI="/0000215"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/0000214"/>
@@ -1016,6 +1111,10 @@
     <SubClassOf>
         <Class IRI="/0000216"/>
         <Class IRI="#SystematicAnticancerTreatmentRegimen"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000216"/>
+        <Class IRI="/0000232"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/0000216"/>
@@ -1186,6 +1285,10 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/0000235"/>
+        <Class IRI="/0000232"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000235"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#hasPhase"/>
             <Class IRI="/0000232"/>
@@ -1201,6 +1304,10 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/0000236"/>
+        <Class IRI="/0000228"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000236"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#hasPhase"/>
             <Class IRI="/0000228"/>
@@ -1213,6 +1320,10 @@
     <SubClassOf>
         <Class IRI="/0000237"/>
         <Class IRI="#SystematicAnticancerTreatmentRegimen"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/0000237"/>
+        <Class IRI="/0000228"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/0000237"/>
@@ -1320,10 +1431,6 @@
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#AAML_1031_ARM_A_high-risk_Intensification_1"/>
-        <NamedIndividual IRI="#Cytarabine_age0_20mg"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#age_0"/>
         <NamedIndividual IRI="#Cytarabine_age0_20mg"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -2002,10 +2109,6 @@
         <Class IRI="/0000141"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="/0000146"/>
-        <Class IRI="/0000138"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
         <ObjectProperty IRI="/0000205"/>
         <Class IRI="/0000084"/>
     </ObjectPropertyRange>
@@ -2272,11 +2375,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Mitoxantrone_day3-6_12mg</IRI>
         <Literal xml:lang="en">Mitoxantrone_day3-6_12mg</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#age_0</IRI>
-        <Literal xml:lang="en">Cytarabine_CNS_age_0</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -2602,16 +2700,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>/0000137</IRI>
         <Literal xml:lang="en">Palliative</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>/0000138</IRI>
-        <Literal>might need a definition here.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/0000138</IRI>
-        <Literal xml:lang="en">Prognosis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
